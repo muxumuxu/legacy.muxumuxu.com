@@ -122,6 +122,57 @@ en:
         team:
           title: Team in Stockholm, Oslo, Amsterdam, London, Taiwan
 
+  carreers:
+    intro:
+      title: Join us
+      description: |
+        <p>At Bakken & Baeck you'll get to work with an exceptionally talented team of designers and engineers in turning visionary ideas into the next generation of digital products and services.</p>
+        <p>We are always on the lookout for talented and highly motivated people to join our team.</p>
+    values:
+      first:
+        title: Freedom and flexibility
+        description: |
+          At Bakken & Baeck you are given the freedom and flexibility you need to thrive and realize your full potential. Structure your own workday, or work remote. You decide what suits you best.
+      second:
+        title: Build something unique
+        description: |
+          As an international team we get to bring the most interesting, innovative and exciting ideas to life together with some of the best and most renowned clients and partners in the business.
+      third:
+        title: What you need to excel
+        description: |
+          You will be provided with the tools you need to flourish. You'll get the hardware and software you need, and an amazing and dynamic work space and environment.
+      fourth:
+        title: Great trips and parties
+        description: |
+          Great parties are an important ingredient of Bakken & Baeck. Twice a year, at summer and christmas, we gather everyone in the company for a trip. We also do parties, open houses and the yearly conference An Interesting Day.
+    benefits:
+      title: Brilliant benefits
+      items:
+        insurance: Great health insurance
+        massage: Massage in the office
+        parental-leave: Parental leave bonus package
+        coffee: Best coffee in town
+        conferences: Relevant conferences and courses
+        food: Free breakfast and lunch
+    positions:
+      title : Positions
+      cities:
+        oslo:
+          title: Oslo
+          positions:
+            first:
+              title: iOS Developer
+              contract: Full time
+            second:
+              title: Android Developer
+              contract: Full time
+        amsterdam:
+          title: Amsterdam
+          positions:
+            first:
+              title: iOS Developer
+              contract: Full time
+
   clients:
     image:
     description: |
