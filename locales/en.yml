@@ -101,8 +101,7 @@ en:
         <Get in touch</p>
 
   about:
-    intro:
-      title: |
+    intro: |
         We are a team of world-class designers, developers & strategists working with startups & companies we believe in.
     about-us:
       title: Our own ventures
@@ -116,7 +115,7 @@ en:
     facts:
       title: Facts
       items:
-        founded: 
+        founded:
           title: Founded in 2017
         hq:
           title: HQ in Stockholm, Sweden
