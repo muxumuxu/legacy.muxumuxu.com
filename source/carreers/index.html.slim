@@ -8,3 +8,13 @@ p = t 'carreers.intro.description'
 h2 = t 'carreers.benefits.title'
 - t('carreers.benefits.items').each do |id, item|
   p = item
+
+h2 = t 'carreers.positions.title'
+h3 = t 'carreers.positions.cities.oslo.title'
+- t('carreers.positions.cities.oslo.positions').each do |id, position|
+  p = position[:title]
+  p = position[:contract]
+h3 = t 'carreers.positions.cities.amsterdam.title'
+- t('carreers.positions.cities.amsterdam.positions').each do |id, position|
+  p = position[:title]
+  p = position[:contract]

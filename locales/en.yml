@@ -155,21 +155,23 @@ en:
         conferences: Relevant conferences and courses
         food: Free breakfast and lunch
     positions:
-      oslo:
-        title: Oslo
-        positions:
-          first:
-            position: iOS Developer
-            contract: Full time
-          second:
-            position: Android Developer
-            contract: Full time
-      amsterdam:
-        title: Amsterdam
-        positions:
-          first:
-            position: iOS Developer
-            contract: Full time
+      title : Positions
+      cities:
+        oslo:
+          title: Oslo
+          positions:
+            first:
+              title: iOS Developer
+              contract: Full time
+            second:
+              title: Android Developer
+              contract: Full time
+        amsterdam:
+          title: Amsterdam
+          positions:
+            first:
+              title: iOS Developer
+              contract: Full time
 
   clients:
     image:
