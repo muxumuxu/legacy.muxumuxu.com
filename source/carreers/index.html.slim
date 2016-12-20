@@ -1,0 +1,10 @@
+h1 = t 'carreers.intro.title'
+p = t 'carreers.intro.description'
+
+- t('carreers.values').each do |id, value|
+  h2 = value[:title]
+  p = value[:description]
+  
+h2 = t 'carreers.benefits.title'
+- t('carreers.benefits.items').each do |id, item|
+  p = item
