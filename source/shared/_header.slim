@@ -1,0 +1,10 @@
+header
+  = link_to "../", class: "logo"
+    = image_tag "logo.svg"
+  nav
+    ul
+      - t('navigation.links').each do |id, navigation|
+        li
+          = link_to "../#{id}"
+            = navigation[:title]
+  

@@ -16,69 +16,71 @@ en:
         title: Carreers
 
   intro:
-    baseline:
-      title: We help startups and companies make their dream product come true.
-    sub-baseline:
-      title: We also craft our own apps that improve people's lives.
+    title: |
+      We help startups and companies make their dream product come true.
+      <br/>
+      We also craft our own apps that improve people's lives.
 
   projects:
-    streamquest:
-      home:
-        title: |
+    list:
+      streamquest-identity:
+        title: StreamQuest Identity
+        abstract: |
           We’ve worked with Stream Quest to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
-    reech:
-      home:
-        title: |
+      reech-landing:
+        title: Reech Landing
+        abstract: |
           We’ve worked with Stream Quest to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
-    trace:
-      home:
-        title: |
+      trace-radio:
+        title: Trace Radio
+        abstract: |
           We’ve worked with Stream Quest to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
-    more:
-      title: Take a deeper look at our work →
+      robin-finance-design:
+        title: Robin Finance iOS
+      wanted-identity:
+        title: Wanted Identity
+    more: Take a deeper look at our work →
 
   clients:
     image:
     description: |
       <p>We help startups and companies we believe in to create and improve digital products and services through long lasting and mutually rewarding relationships.</p>
       <p>Muxu•Muxu’s 100% person-based operation is made up of passionate makers. As a team we contribute with everything from product design, prototyping and branding to development.</p>
-    more:
-      title: Read about our services →
+    more: Read about our services →
 
   contact-us:
-    title: |
-      <p>Let's talk.</p>
-      <p>inquire@muxumuxu.com</p>
+    mailto: |
+      Let's talk.
+      inquire@muxumuxu.com
 
   footer:
-    navigation:
-      contact:
-        title: Contact
-        links:
-          fr-number:
-            title: FR +33 0 00 00 00 00
-          en-number:
-            title: EN +33 0 00 00 00 00
-          location:
-            title: Bordeaux 🇫🇷 / Oakland 🇺🇸
-      more:
-        title: More
-        links:
-          dribbble:
-            title: 🏀 Dribbble
-            link:
-          twitter:
-            title: 🕊 Twitter
-            link: https://twitter.com/wearemuxu
-          facebook:
-            title: 💬 Facebook
-            link: https://www.facebook.com/wearemuxu
-          instagram:
-            title: 📸 Instagram
-            link:
-      news:
-        title: Muxu•News
-        description: |
-          <p>Give us your email and we'll keep you in the loop with our latest projects.</p>
-        subscribe:
-          title: Subscribe
+    contact:
+      title: Contact
+      links:
+        fr-number:
+          title: FR +33 0 00 00 00 00
+        en-number:
+          title: EN +33 0 00 00 00 00
+        location:
+          title: Bordeaux 🇫🇷 / Oakland 🇺🇸
+    more:
+      title: More
+      links:
+        dribbble:
+          title: 🏀 Dribbble
+          link:
+        twitter:
+          title: 🕊 Twitter
+          link: https://twitter.com/wearemuxu
+        facebook:
+          title: 💬 Facebook
+          link: https://www.facebook.com/wearemuxu
+        instagram:
+          title: 📸 Instagram
+          link:
+    news:
+      title: Muxu•News
+      description: |
+        <p>Give us your email and we'll keep you in the loop with our latest projects.</p>
+      subscribe:
+        title: Subscribe

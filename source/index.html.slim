@@ -1,1 +1,17 @@
-h1 = t 'title'
+h1 = t 'intro.title'
+
+.work
+  - t('projects.list').each do |id, projects|
+    - if projects[:abstract]
+      p = projects[:abstract]
+  = link_to "../work"
+    = t 'projects.more'
+
+.references
+  = t 'clients.description'
+  = link_to "../services"
+    = t 'clients.more'
+
+.contact-us
+  = link_to "mailto:inquire@muxumuxu.com"
+    = t 'contact-us.mailto'
