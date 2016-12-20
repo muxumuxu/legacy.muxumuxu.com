@@ -64,11 +64,13 @@ en:
       one:
         number: '01'
         title: Our own ventures
-        description: We usually form new companies based on our own ideas and products, doing everything from design to funding ourselves. We invent, design and build the product before hiring a new team to bring the product out into the world.
+        description: |
+          We usually form new companies based on our own ideas and products, doing everything from design to funding ourselves. We invent, design and build the product before hiring a new team to bring the product out into the world.
       two:
         number: '02'
         title: Partnerships
-        description: Sometimes we form equity or royalty-based partnerships with big companies or small startups. Together we create new products and services, improve existing products, or launch a completely new area of business.
+        description: |
+          Sometimes we form equity or royalty-based partnerships with big companies or small startups. Together we create new products and services, improve existing products, or launch a completely new area of business.
     portfolio:
       title: Portfolio
       projects:
