@@ -100,6 +100,29 @@ en:
         <p>In addition to our own team we offer an external network of experts that includes some of the world's top founders, investors and advisors. A valuable resource to tap into when scaling or getting funding for your business.</p>
         <Get in touch</p>
 
+  about:
+    intro:
+      title: |
+        We are a team of world-class designers, developers & strategists working with startups & companies we believe in.
+    about-us:
+      title: Our own ventures
+      who: We are Muxu
+      description: |
+        <p>3drops is a digital product studio that helps startups and companies transform ideas into digital products and services. We work with big and small, from all kinds of industries in any corner of the world to support, launch and scale businesses.</p>
+        <p>3drops consists of a small interdisciplinary team with big ambitions. Sometimes we design and develop products from the ground up. Sometimes we improve on an already existing product. Don't be fooled by our size, we're a full service studio that over the pass six years has helped businesses realise their ideas, from napkin sketch to launch and beyond. We contribute to everything between design, development, branding and strategy.</p>
+        <p>We also invest in our own ideas, which, in some cases, turns into our very own ventures. Roadmap is the result of us scratching our own itch as we saw a need for a project overview tool that visualises projects on a beautiful timeline. Other Themes is another venture of ours, which we created to fill a space in the theme market industry where we saw a need for Scandinavian inspired designs.</p>
+        <p>At 3drops, we are relentlessly focused on the future. We run our very own creative lab, where we apply our innovative genome in a safe environment in order to exercice our creative muscle and continuously improve team collaboration.</p>
+        <p>Follow us in Dribbble and Twitter to stay tuned with the latest and great of our work! Or get in touch for all inquiries.</p>
+    facts:
+      title: Facts
+      items:
+        founded: 
+          title: Founded in 2017
+        hq:
+          title: HQ in Stockholm, Sweden
+        team:
+          title: Team in Stockholm, Oslo, Amsterdam, London, Taiwan
+
   clients:
     image:
     description: |
