@@ -1,9 +1,9 @@
 h1 = t 'intro.title'
 
 .work
-  - t('projects.list').each do |id, projects|
-    - if projects[:abstract]
-      p = projects[:abstract]
+  - t('projects.list').each do |id, project|
+    - if project[:abstract]
+      p = project[:abstract]
   = link_to "../work"
     = t 'projects.more'
 
