@@ -1,0 +1,7 @@
+h1 = t 'blog.intro'
+
+- t('blog.articles').each do |id, article|
+  h2 = article[:title]
+  p = article[:description]
+  = link_to article[:link], target: "_blank"
+    = "Read more on #{article[:source]}"

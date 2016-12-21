@@ -122,6 +122,28 @@ en:
         team:
           title: Team in Stockholm, Oslo, Amsterdam, London, Taiwan
 
+  blog:
+    intro: Blog
+    articles:
+      say-hi-mark-jerry:
+        title: Say hi to Mark and Jerry
+        description: |
+          Once in a while we stumble upon some crazy talented people. Mark and Jerry, two new developers joining our team in Oslo, are exactly that.
+        source: Medium
+        link: https://www.medium.com
+      say-hi-mark-jerry:
+        title: Say hi to Mark and Jerry
+        description: |
+          Once in a while we stumble upon some crazy talented people. Mark and Jerry, two new developers joining our team in Oslo, are exactly that.
+        source: Medium
+        link: https://www.medium.com
+      say-hi-mark-jerry:
+        title: Say hi to Mark and Jerry
+        description: |
+          Once in a while we stumble upon some crazy talented people. Mark and Jerry, two new developers joining our team in Oslo, are exactly that.
+        source: Medium
+        link: https://www.medium.com
+
   carreers:
     intro:
       title: Join us
