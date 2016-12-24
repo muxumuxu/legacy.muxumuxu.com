@@ -191,15 +191,16 @@ en:
               contract: Full time
 
   clients:
-    image:
-    description: |
-      <p>We help startups and companies we believe in to create and improve digital products and services through long lasting and mutually rewarding relationships.</p>
-      <p>Muxu•Muxu’s 100% person-based operation is made up of passionate makers. As a team we contribute with everything from product design, prototyping and branding to development.</p>
+    description:
+      we-help-startups: |
+        We help startups and companies we believe in to create and improve digital products and services through long lasting and mutually rewarding relationships.
+      person-based: |
+        Muxu•Muxu’s 100% person-based operation is made up of passionate makers. As a team we contribute with everything from product design, prototyping and branding to development.
     more: Read about our services →
 
   contact-us:
     mailto: |
-      Let's talk.
+      Let's talk.</br>
       inquire@muxumuxu.com
 
   footer:
