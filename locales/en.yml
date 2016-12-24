@@ -2,18 +2,19 @@ en:
   navigation:
     logo: ../fr
     links:
-      work:
-        title: Work
-      services:
-        title: Services
-      ventures:
-        title: Ventures
-      about:
-        title: About
-      blog:
-        title: Blog
-      carreers:
-        title: Carreers
+      ../:
+        work:
+          title: Work
+        services:
+          title: Services
+        ventures:
+          title: Ventures
+        about:
+          title: About
+        blog:
+          title: Blog
+        carreers:
+          title: Carreers
 
   intro:
     title: |
