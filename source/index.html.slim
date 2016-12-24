@@ -1,16 +1,19 @@
-h1 = t 'intro.title'
+.wrapper
+  .hero
+    h1 = t 'intro.title'
+    = image_tag "illustration.svg"
 
-.work
-  h2 = t 'projects.list.streamquest-identity.title'
-  p = t 'projects.list.streamquest-identity.type'
-  h2 = t 'projects.list.reech-landing.title'
-  p = t 'projects.list.reech-landing.type'
-  h2 = t 'projects.list.trace-radio-app.title'
-  p = t 'projects.list.trace-radio-app.type'
-  = link_to "../work"
-    = t 'projects.more'
+  .work
+    h2 = t 'projects.list.streamquest-identity.title'
+    p = t 'projects.list.streamquest-identity.type'
+    h2 = t 'projects.list.reech-landing.title'
+    p = t 'projects.list.reech-landing.type'
+    h2 = t 'projects.list.trace-radio-app.title'
+    p = t 'projects.list.trace-radio-app.type'
+    = link_to "../work"
+      = t 'projects.more'
 
-.references
-  = t 'clients.description'
-  = link_to "../services"
-    = t 'clients.more'
+  .references
+    = t 'clients.description'
+    = link_to "../services"
+      = t 'clients.more'
