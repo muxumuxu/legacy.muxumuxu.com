@@ -24,36 +24,31 @@ en:
   projects:
     list:
       streamquest-identity:
-        title: StreamQuest Identity
-        abstract: |
-          We’ve worked with Stream Quest to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
-        description: |
-          We’ve worked with Stream Quest to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
+        title: StreamQuest
+        type: Branding
       reech-landing:
-        title: Reech Landing
-        abstract: |
-          We’ve worked with Reech to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
-        description: |
-          We’ve worked with Reech to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
-      trace-radio:
+        title: Reech
+        type: Website design
+      trace-radio-app:
         title: Trace Radio
-        abstract: |
-          We’ve worked with Trace Radio to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
-        description: |
-          We’ve worked with Trace Radio to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
+        type: App design & development
       robin-finance-design:
-        title: Robin Finance iOS
-        description: |
-          We’ve worked with Robin Finance to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
+        title: Robin Finance
+        type: App design
       wanted-identity:
-        title: Wanted Identity
-        description: |
-          We’ve worked with Wanted to create a private space for teams to share design work. With Wake you’ll know what your team is working on.
+        title: Wanted
+        type: Branding
+      inch-landing:
+        title: Inch
+        type: Website design
+      azendoo-design:
+        title: Azendoo
+        type: App design
     more: Take a deeper look at our work →
 
   work:
     title: |
-      We help established companies move like startups by working as an external product team on their greatest challenges. Together we create new products and services from scratch, improve existing products, or launch a completely new area of business.
+      We work with startup and companies we believe in.
 
   ventures:
     intro:
