@@ -221,25 +221,25 @@ en:
         fr-number:
           title: +33 0 00 00 00 00
         location:
-          title: Bordeaux 🇫🇷 / Oakland 🇺🇸
+          title: <span class="flag-fr">Bordeaux</span> / <span class="flag-us">Oakland</span>
     more:
       title: More
       links:
         dribbble:
-          title: 🏀 Dribbble
+          title: Dribbble
           link:
         twitter:
-          title: 🕊 Twitter
+          title: Twitter
           link: https://twitter.com/wearemuxu
         facebook:
-          title: 💬 Facebook
+          title: Facebook
           link: https://www.facebook.com/wearemuxu
         instagram:
-          title: 📸 Instagram
+          title: Instagram
           link:
     news:
-      title: Muxu•News
+      title: Muxu.News
       description: |
-        <p>Give us your email and we'll keep you in the loop with our latest projects.</p>
+        Give us your email and we'll keep you in the loop with our latest projects.
       subscribe:
         title: Subscribe
