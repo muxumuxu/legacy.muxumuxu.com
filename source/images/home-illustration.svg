@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="653px" height="438px" viewBox="0 0 653 438" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
-    <title>illustration</title>
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>illustration-export</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <circle id="path-1" cx="604.5" cy="63.5" r="32.5"></circle>
@@ -52,7 +52,7 @@
         <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="76" height="6" fill="white">
             <use xlink:href="#path-23"></use>
         </mask>
-        <rect id="path-25" x="0" y="3" width="116" height="86" rx="4"></rect>
+        <path d="M0,3 L116,3 L116,84.9960008 C116,87.2073485 114.201197,89 112.007017,89 L3.99298257,89 C1.78771919,89 0,87.2037678 0,84.9960008 L0,3 Z" id="path-25"></path>
         <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="116" height="86" fill="white">
             <use xlink:href="#path-25"></use>
         </mask>
@@ -64,7 +64,7 @@
         <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="116" height="10" fill="white">
             <use xlink:href="#path-29"></use>
         </mask>
-        <rect id="path-31" x="66" y="143" width="192" height="10" rx="5"></rect>
+        <path d="M66,148 C66,145.238576 68.2393978,143 71.000063,143 L258,143 L258,148 C258,150.761424 255.760602,153 252.999937,153 L71.000063,153 C68.2386044,153 66,150.755805 66,148 Z" id="path-31"></path>
         <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="192" height="10" fill="white">
             <use xlink:href="#path-31"></use>
         </mask>
@@ -72,7 +72,7 @@
         <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="2" fill="white">
             <use xlink:href="#path-33"></use>
         </mask>
-        <rect id="path-35" x="0" y="143" width="192" height="10" rx="5"></rect>
+        <path d="M0,143 L192,143 L192,148 C192,150.761424 189.760602,153 186.999937,153 L5.00006297,153 C2.23860444,153 0,150.755805 0,148 L0,143 Z" id="path-35"></path>
         <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="192" height="10" fill="white">
             <use xlink:href="#path-35"></use>
         </mask>
@@ -242,7 +242,7 @@
         </mask>
     </defs>
     <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-555.000000, -267.000000)" id="illustration">
+        <g transform="translate(-555.000000, -267.000000)" id="illustration-export">
             <g transform="translate(555.000000, 267.000000)">
                 <use id="sund" stroke="#000000" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
                 <use id="cloud" stroke="#000000" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
@@ -250,7 +250,7 @@
                     <use id="Rectangle-16" stroke="#000000" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-5"></use>
                     <use id="Rectangle-16" stroke="#000000" mask="url(#mask-8)" stroke-width="4" fill="#FFFFFF" transform="translate(47.000000, 51.500000) scale(1, -1) translate(-47.000000, -51.500000) " xlink:href="#path-7"></use>
                     <use id="Rectangle-16" stroke="#000000" mask="url(#mask-10)" stroke-width="4" fill="#FFFFFF" transform="translate(47.000000, 25.000000) scale(1, -1) translate(-47.000000, -25.000000) " xlink:href="#path-9"></use>
-                    <use id="Rectangle-16" stroke="#000000" mask="url(#mask-12)" stroke-width="4" fill="#33CC33" transform="translate(55.500000, 11.000000) scale(-1, -1) translate(-55.500000, -11.000000) " xlink:href="#path-11"></use>
+                    <use id="Rectangle-16" stroke="#000000" mask="url(#mask-12)" stroke-width="4" fill="#FFFFFF" transform="translate(55.500000, 11.000000) scale(-1, -1) translate(-55.500000, -11.000000) " xlink:href="#path-11"></use>
                     <circle id="Oval-9" fill="#000000" cx="54" cy="9" r="1"></circle>
                     <circle id="Oval-9" fill="#000000" cx="58" cy="10" r="1"></circle>
                     <path d="M58,12 C58,13.1045695 57.1045695,14 56,14 C54.8954305,14 54,13.1045695 54,12 C54,11.6597019 54.0849894,11.3392542 54.2349,11.058725 L58,12 Z" id="Combined-Shape" fill="#000000"></path>
@@ -286,7 +286,7 @@
                         <use id="Rectangle-15" stroke="#000000" mask="url(#mask-24)" stroke-width="4" fill="#EDEDED" xlink:href="#path-23"></use>
                     </g>
                     <g id="Group-3" transform="translate(97.000000, 30.000000)">
-                        <use id="Rectangle-13" stroke="#000000" mask="url(#mask-26)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-25"></use>
+                        <use id="Combined-Shape" stroke="#000000" mask="url(#mask-26)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-25"></use>
                         <path d="M66,87.2032515 L69.8284065,79.4624788 C71.7876625,75.500999 71.7606163,69.0830048 69.7811124,65.1535227 L68.1638079,61.9430367 C66.178432,58.0018983 68.1192615,54.3307341 72.4903859,53.744387 L78.0024193,53.0049971 C82.3772982,52.4181463 86.7268143,48.4482966 87.7140461,44.1524033 L88.0089855,42.8689885 C88.99769,38.5666868 93.237202,36.0797061 97.4766573,37.3137125 L101.476871,38.4780814 C105.717018,39.712289 110.642461,37.4485095 112.471432,33.4365398 L115.269531,27.2987225" id="Path-3" stroke="#000000" stroke-width="2"></path>
                         <rect id="Rectangle-21" fill="#000000" x="11" y="58" width="42" height="2" rx="1"></rect>
                         <rect id="Rectangle-21" fill="#000000" x="11" y="65" width="22" height="2" rx="1"></rect>
@@ -296,9 +296,9 @@
                         <circle id="Oval-8" fill="#000000" cx="8" cy="5" r="1"></circle>
                         <circle id="Oval-8" fill="#000000" cx="11" cy="5" r="1"></circle>
                     </g>
-                    <use id="iphone" stroke="#000000" mask="url(#mask-32)" stroke-width="4" fill="#EDEDED" xlink:href="#path-31"></use>
+                    <use id="Combined-Shape" stroke="#000000" mask="url(#mask-32)" stroke-width="4" fill="#EDEDED" xlink:href="#path-31"></use>
                     <use id="Rectangle-2" stroke="#000000" mask="url(#mask-34)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-33"></use>
-                    <use id="iphone" stroke="#000000" mask="url(#mask-36)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-35"></use>
+                    <use id="Combined-Shape" stroke="#000000" mask="url(#mask-36)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-35"></use>
                 </g>
                 <g id="iphone" transform="translate(248.000000, 229.000000)">
                     <use stroke="#000000" mask="url(#mask-38)" stroke-width="4" fill="#EDEDED" xlink:href="#path-37"></use>
