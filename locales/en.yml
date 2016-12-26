@@ -50,6 +50,15 @@ en:
     title: |
       We work with startup and companies we believe in.
 
+  services:
+    intro: Code-based. Design-obsessed. Future-forward.
+    about:
+      title: What we do
+      description: |
+        Making great products is why we get up in the morning. With an obsession for well designed products and a relentless attention to detail, we will always put the product first.<br>
+        <br>We turn sketches into a prototype as quickly as possible. We aim to spend less time fiddling with plans and specs, and more time producing. We gave an experimental and collaborative approach. With quick iterations we pursue a short time to launched product.
+      more: Get in touch →
+
   ventures:
     intro:
       title: Ventures
