@@ -15,7 +15,7 @@ footer
       h3 = t 'footer.more.title'
       ul
         - t('footer.more.links').each do |id, footer|
-          li
+          li class="#{id}"
             = link_to footer[:link], target: "_blank"
               = footer[:title]
   
