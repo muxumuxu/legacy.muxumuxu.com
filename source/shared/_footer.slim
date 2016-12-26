@@ -2,19 +2,24 @@
   = t 'contact-us.mailto'
 
 footer
-  h3 = t 'footer.contact.title'
-  ul
-    - t('footer.contact.links').each do |id, footer|
-      li
-        = link_to footer[:link]
-          = footer[:title]
-          
-  h3 = t 'footer.more.title'
-  ul
-    - t('footer.more.links').each do |id, footer|
-      li
-        = link_to footer[:link], target: "_blank"
-          = footer[:title]
+  .footer-item
+    .footer-contact
+      h3 = t 'footer.contact.title'
+      ul
+        - t('footer.contact.links').each do |id, footer|
+          li
+            = link_to footer[:link]
+              = footer[:title]
+  .footer-item
+    .footer-more
+      h3 = t 'footer.more.title'
+      ul
+        - t('footer.more.links').each do |id, footer|
+          li
+            = link_to footer[:link], target: "_blank"
+              = footer[:title]
   
-  h3 = t 'footer.news.title'
-  p = t 'footer.news.description'
+  .footer-item
+    .footer-news
+      h3 = t 'footer.news.title'
+      p = t 'footer.news.description'
