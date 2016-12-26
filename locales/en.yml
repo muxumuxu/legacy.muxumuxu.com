@@ -207,10 +207,10 @@ en:
     contact:
       title: Contact
       links:
+        email:
+          title: hello@muxumuxu.com
         fr-number:
-          title: FR +33 0 00 00 00 00
-        en-number:
-          title: EN +33 0 00 00 00 00
+          title: +33 0 00 00 00 00
         location:
           title: Bordeaux 🇫🇷 / Oakland 🇺🇸
     more:

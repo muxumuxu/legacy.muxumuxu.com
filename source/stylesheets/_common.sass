@@ -5,6 +5,7 @@
 body
   background: white
   font-family: 'Roboto', sans-serif
+  margin: 0
   h1
     color: black
 
@@ -30,7 +31,7 @@ header
 
 .wrapper
   max-width: 980px
-  margin: 170px auto
+  margin: 130px auto
   .hero
     position: relative
     min-height: 440px
@@ -83,13 +84,47 @@ header
     padding-bottom: 10px
     border-bottom: 1px solid #33CC33
 
-.black-wrapper
+.contact-us
+  text-decoration: none
+  color: white
+  font-size: 50px
+  font-weight: normal
+  display: block
   width: 100%
-  height: 600px
+  height: 270px
+  padding-top: 150px
   background-color: black
   text-align: center
-  a
-    text-decoration: none
-    color: white
-    font-size: 50px
-    font-weight: normal
+
+footer
+  max-width: 980px
+  margin: 50px auto
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  .footer-item
+    h3
+      margin-bottom: -8px
+      font-size: 16px
+      font-weight: 500
+    ul
+      list-style: none
+      padding-left: 0
+      a
+        text-decoration: none
+        color: black
+        font-size: 16px
+    .footer-contact
+      ul
+        li
+          padding-bottom: 3px
+        li:last-child
+          padding-top: 32px
+    .footer-more
+      padding-right: 90px
+      h3
+        margin-bottom: -13px
+    .footer-news
+      max-width: 300px
+      p
+        line-height: 22px
