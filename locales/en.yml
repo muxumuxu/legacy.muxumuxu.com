@@ -17,9 +17,9 @@ en:
 
   intro:
     title: |
-      We help startups and companies make their dream product come true.
+      We help startups and established companies invent, build, and launch their next product or venture.
       <br><br/>
-      We also craft our own apps that improve people's lives.
+      We also build startups of our own.
 
   projects:
     list:
@@ -204,13 +204,13 @@ en:
       we-help-startups: |
         We help startups and companies we believe in to create and improve digital products and services through long lasting and mutually rewarding relationships.
       person-based: |
-        Muxu•Muxu’s 100% person-based operation is made up of passionate makers. As a team we contribute with everything from product design, prototyping and branding to development.
+        Muxu.Muxu is made up of passionate makers. As a team we contribute with everything from product design, prototyping and branding to development.
     more: Read about our services →
 
   contact-us:
     mailto: |
       Let's talk.</br>
-      inquire@muxumuxu.com
+      hello@muxumuxu.com
 
   footer:
     contact:
