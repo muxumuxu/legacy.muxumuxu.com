@@ -60,18 +60,14 @@ en:
       more: Get in touch →
 
   ventures:
-    intro:
-      title: Ventures
-      description: |
-        We build and launch our own ventures, but we also work with founders and compagnies to transform good ideas into great products and services. We form partnerships and contribute hands-on with design, development and whatever is needed to find a product/market fit. We are not a VC firm or an incubator, but an active partner for startups who need fuel to get their product build or get to the next level. Occasionally we also do pre-seed or seed cash investments in selected startups.
+    intro: |
+        We build and launch our own ventures, but we also work with founders and compagnies to transform good ideas into great products and services.
     what:
       one:
-        number: '01'
         title: Our own ventures
         description: |
           We usually form new companies based on our own ideas and products, doing everything from design to funding ourselves. We invent, design and build the product before hiring a new team to bring the product out into the world.
       two:
-        number: '02'
         title: Partnerships
         description: |
           Sometimes we form equity or royalty-based partnerships with big companies or small startups. Together we create new products and services, improve existing products, or launch a completely new area of business.
@@ -80,22 +76,24 @@ en:
       projects:
         foodancy:
           title: Foodancy
-          description: Artificial intelligence as a service
-        hedwige:
-          title: Hedwige
-          description: Artificial intelligence as a service
-        campaign-sms:
-          title: Campaign SMS
-          description: Artificial intelligence as a service
-        stickers:
-          title: Stickers
-          description: Artificial intelligence as a service
-        dependn:
-          title: Dependn'
-          description: Artificial intelligence as a service
+          type: Health
+          link: http://foodancy.com/
         papier:
           title: Papier
-          description: Artificial intelligence as a service
+          type: Productivity
+          link: https://getpapier.com/
+        dependn:
+          title: Dependn'
+          type: Health
+          link: http://dependn.com/en/
+        bordeaux-stickers:
+          title: Bordeaux Stickers
+          type: Stickers
+          link: https://itunes.apple.com/fr/app/bordeaux-gave-de-stickers/id1156223637?mt=8
+        hedwige:
+          title: Hedwige
+          type: Productivity - Coming soon
+          link:
     partnerships:
       title: What we do in a partnership
       description: |
@@ -103,6 +101,7 @@ en:
         <p>We also know what common pit-falls most startups are facing, like how hard and time consuming it is to find the right team and keep the necessary speed when building their product. We already have a complete team ready to take your product from idea to prototype and beyond. Combining heavy technical expertise within machine learning and artificial intelligence with a relentless focus on product design and user experience makes us capable of building unique products quickly.</p>
         <p>In addition to our own team we offer an external network of experts that includes some of the world's top founders, investors and advisors. A valuable resource to tap into when scaling or getting funding for your business.</p>
         <Get in touch</p>
+      more: Get in touch →
 
   about:
     intro: |
