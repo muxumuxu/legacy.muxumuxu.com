@@ -1,18 +1,27 @@
-h1 = t 'ventures.intro.title'
-p = t 'ventures.intro.description'
+.wrapper
+  .ventures
+    h1 = t 'ventures.intro'
 
-h2 = t 'ventures.what.one.number'
-p = t 'ventures.what.one.title'
-p = t 'ventures.what.one.description'
-
-h2 = t 'ventures.what.two.number'
-p = t 'ventures.what.two.title'
-p = t 'ventures.what.two.description'
-
-h2 = t 'ventures.portfolio.title'
-- t('ventures.portfolio.projects').each do |id, project|
-  h3 = project[:title]
-  p = project[:description]
-
-h2 = t 'ventures.partnerships.title'
-p = t 'ventures.partnerships.description'
+    .columns
+      .column-item
+        h2 = t 'ventures.what.one.title'
+        p = t 'ventures.what.one.description'
+      .column-item.padded
+        h2 = t 'ventures.what.two.title'
+        p = t 'ventures.what.two.description'
+        
+    .portfolio
+      h2 = t 'ventures.portfolio.title'
+      .projects
+        - t('ventures.portfolio.projects').each do |id, project|
+          .project
+            = image_tag "portfolio-ph.svg"
+            h3 = project[:title]
+            p = project[:type]
+          
+    .partnerships
+      = image_tag "ventures-illustration.svg"
+      h2 = t 'ventures.partnerships.title'
+      = t 'ventures.partnerships.description'      
+      = link_to "mailto:inquire@muxumuxu.com", class: "link"
+        = t 'ventures.partnerships.more'
