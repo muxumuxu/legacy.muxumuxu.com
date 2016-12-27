@@ -125,26 +125,29 @@ en:
           title: Team in Stockholm, Oslo, Amsterdam, London, Taiwan
 
   blog:
-    intro: Blog
+    intro: |
+      Muxu.Blog: Thoughts on the internet, technology, experiences, development and design.
     articles:
-      say-hi-mark-jerry:
-        title: Say hi to Mark and Jerry
+      one-week-one-app:
+        title: |
+          Muxu.Muxu bootcamp: one week, one app, one thousand Upvotes
         description: |
-          Once in a while we stumble upon some crazy talented people. Mark and Jerry, two new developers joining our team in Oslo, are exactly that.
+          During our recent Muxu.Muxu Bootcamp, we set ourselves a mission: one week, one app, from finding the idea to launching on Product Hunt.
         source: Medium
-        link: https://www.medium.com
-      say-hi-mark-jerry:
-        title: Say hi to Mark and Jerry
+        link: https://medium.com/muxu-muxu/muxu-muxu-bootcamp-one-week-one-app-one-thousand-upvotes-fc6e68e92eac#.gh1cargcj
+      a-shot-in-the-dark:
+        title: |
+          A shot in the dark: The creation of Drubbbler
         description: |
-          Once in a while we stumble upon some crazy talented people. Mark and Jerry, two new developers joining our team in Oslo, are exactly that.
-        source: Medium
-        link: https://www.medium.com
-      say-hi-mark-jerry:
-        title: Say hi to Mark and Jerry
+          Planning and posting shots in order to get more visibility—and being strategic about when to do so—has become a fundamental part of work for many designers.
+        source: InVision
+        link: http://blog.invisionapp.com/creation-of-drubbbler/
+      diversity-community-collaboration:
+        title: Diversity, community and collaboration
         description: |
-          Once in a while we stumble upon some crazy talented people. Mark and Jerry, two new developers joining our team in Oslo, are exactly that.
-        source: Medium
-        link: https://www.medium.com
+          A brief chat with Luc Chaissac to find out a bit more about the projects they’ve been working on at Azendoo and their design workflow.
+        source: Atomic
+        link: http://blog.atomic.io/design/luc-chaissac-diversity-community-collaboration-prototyping
 
   carreers:
     intro:
