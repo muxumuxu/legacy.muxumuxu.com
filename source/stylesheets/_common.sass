@@ -141,17 +141,25 @@ header
         font-size: 32px
         font-weight: lighter
       .projects
-        display: inline-block
-        width: 230px
-        background-color: red
+        display: flex
+        flex-direction: row
+        flex-flow: row wrap
+        justify-content: space-between
+        margin: 10px 0 0
+        .project
+          width: 220px
+          background-color: red
+          margin: 0 0 40px
     .partnerships
       position: relative
       p
-        width: 470px
+        max-width: 470px
+      .link
+        display: inline-block
       img
         position: absolute
         top: 0
-        right: 0
+        right: -38px
 
 
   .link

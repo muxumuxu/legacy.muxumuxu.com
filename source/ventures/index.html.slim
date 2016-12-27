@@ -14,14 +14,14 @@
       h2 = t 'ventures.portfolio.title'
       .projects
         - t('ventures.portfolio.projects').each do |id, project|
-          = image_tag "portfolio-ph.svg"
-          h3 = project[:title]
-          p = project[:type]
+          .project
+            = image_tag "portfolio-ph.svg"
+            h3 = project[:title]
+            p = project[:type]
           
     .partnerships
-      h2 = t 'ventures.partnerships.title'
-      p = t 'ventures.partnerships.description'
       = image_tag "ventures-illustration.svg"
-      
+      h2 = t 'ventures.partnerships.title'
+      = t 'ventures.partnerships.description'      
       = link_to "mailto:inquire@muxumuxu.com", class: "link"
         = t 'ventures.partnerships.more'
