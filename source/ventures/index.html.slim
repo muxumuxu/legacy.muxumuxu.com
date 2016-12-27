@@ -15,9 +15,10 @@
       .projects
         - t('ventures.portfolio.projects').each do |id, project|
           .project
-            = image_tag "portfolio-ph.svg"
-            h3 = project[:title]
-            p = project[:type]
+            = link_to project[:link]
+              = image_tag "portfolio-ph.svg"
+              h3 = project[:title]
+              p = project[:type]
           
     .partnerships
       = image_tag "ventures-illustration.svg"
