@@ -14,7 +14,7 @@
       h2 = t 'ventures.portfolio.title'
       .projects
         - t('ventures.portfolio.projects').each do |id, project|
-          .project
+          = link_to project[:link], class: "project"
             = image_tag "portfolio-ph.svg"
             h3 = project[:title]
             p = project[:type]
