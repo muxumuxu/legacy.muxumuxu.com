@@ -1,7 +1,12 @@
-h1 = t 'blog.intro'
+.wrapper
+  .blog
+    h1 = t 'blog.intro'
 
-- t('blog.articles').each do |id, article|
-  h2 = article[:title]
-  p = article[:description]
-  = link_to article[:link], target: "_blank"
-    = "Read more on #{article[:source]}"
+    - t('blog.articles').each do |id, article|
+      .article
+        .article-title
+          h2 = article[:title]
+        .article-content
+          p = article[:description]
+          = link_to article[:link], target: "_blank", class: "link"
+            = "Read more on #{article[:source]} →"
