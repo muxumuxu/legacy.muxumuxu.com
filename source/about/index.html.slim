@@ -16,15 +16,16 @@
   
   .clients
     h2 = t 'about.clients.title'
-    ul
+    ul.our-clients
       - t('about.clients.items').each do |id, item|
-        li
-          = item[:title]
+        li.client
+          = image_tag "clients/#{id}.jpg"
 
   .team
     h2 = t 'about.team.title'
-    ul
+    ul.members
       - t('about.team.items').each do |id, item|
-        li
-          = item[:name]
-          = item[:title]
+        li.member
+          = image_tag "team/#{id}.jpg"
+          h3 = item[:name]
+          p = item[:title]

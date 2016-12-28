@@ -8,8 +8,8 @@ footer
       ul
         - t('footer.contact.links').each do |id, footer|
           li
-            = link_to footer[:link]
-              = footer[:title]
+            = footer[:title]
+            
   .footer-item
     .footer-more
       h3 = t 'footer.more.title'
