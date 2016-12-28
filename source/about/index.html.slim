@@ -1,9 +1,10 @@
-h1 = t 'about.intro'
+.wrapper
+  h1 = t 'about.intro'
 
-h2 = t 'about.about-us.title'
-h3 = t 'about.about-us.who'
-p = t 'about.about-us.description'
+  h2 = t 'about.about-us.title'
+  h3 = t 'about.about-us.who'
+  p = t 'about.about-us.description'
 
-h2 = t 'about.facts.title'
-- t('about.facts.items').each do |id, item|
-  p = item[:title]
+  h2 = t 'about.facts.title'
+  - t('about.facts.items').each do |id, item|
+    p = item[:title]

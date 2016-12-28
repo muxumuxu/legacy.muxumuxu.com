@@ -1,27 +1,26 @@
-.wrapper
-  .ventures
-    h1 = t 'ventures.intro'
+.wrapper.ventures
+  h1 = t 'ventures.intro'
 
-    .columns
-      .column-item
-        h2 = t 'ventures.what.one.title'
-        p = t 'ventures.what.one.description'
-      .column-item.padded
-        h2 = t 'ventures.what.two.title'
-        p = t 'ventures.what.two.description'
+  .columns
+    .column-item
+      h2 = t 'ventures.what.one.title'
+      p = t 'ventures.what.one.description'
+    .column-item.padded
+      h2 = t 'ventures.what.two.title'
+      p = t 'ventures.what.two.description'
+      
+  .portfolio
+    h2 = t 'ventures.portfolio.title'
+    .projects
+      - t('ventures.portfolio.projects').each do |id, project|
+        = link_to project[:link], class: "project"
+          = image_tag "portfolio/#{id}.jpg"
+          h3 = project[:title]
+          p = project[:type]
         
-    .portfolio
-      h2 = t 'ventures.portfolio.title'
-      .projects
-        - t('ventures.portfolio.projects').each do |id, project|
-          = link_to project[:link], class: "project"
-            = image_tag "portfolio-ph.svg"
-            h3 = project[:title]
-            p = project[:type]
-          
-    .partnerships
-      = image_tag "ventures-illustration.svg"
-      h2 = t 'ventures.partnerships.title'
-      = t 'ventures.partnerships.description'      
-      = link_to "mailto:inquire@muxumuxu.com", class: "link"
-        = t 'ventures.partnerships.more'
+  .partnerships
+    = image_tag "ventures-illustration.svg"
+    h2 = t 'ventures.partnerships.title'
+    = t 'ventures.partnerships.description'      
+    = link_to "mailto:inquire@muxumuxu.com", class: "link"
+      = t 'ventures.partnerships.more'
