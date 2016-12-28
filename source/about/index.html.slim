@@ -14,18 +14,20 @@
             = link_to item[:url]
               = item[:title]
   
-  .clients
+  .clients.content-list
     h2 = t 'about.clients.title'
-    ul.our-clients
+    ul.list-container
       - t('about.clients.items').each do |id, item|
-        li.client
+        li.list-item
           = image_tag "clients/#{id}.jpg"
 
-  .team
+  .team.content-list
     h2 = t 'about.team.title'
-    ul.members
+    ul.list-container
       - t('about.team.items').each do |id, item|
-        li.member
+        li.list-item
           = image_tag "team/#{id}.jpg"
           h3 = item[:name]
           p = item[:title]
+      li.list-item
+      li.list-item

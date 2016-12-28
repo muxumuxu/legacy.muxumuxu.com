@@ -73,6 +73,37 @@ header
             &:hover
               opacity: 0.6
 
+  .content-list
+    border-top: 1px solid #EAEAEA
+    margin-top: 90px
+    padding-top: 84px
+    h2
+      font-weight: 300 !important
+      opacity: 1
+      margin-bottom: 28px !important
+      font-size: 32px !important
+    .list-container
+      display: flex
+      flex-direction: row
+      flex-flow: row wrap
+      justify-content: space-between
+      margin: 10px 0 0
+      list-style: none
+      padding: 0
+      .list-item
+        text-decoration: none
+        color: black
+        max-width: 220px
+        margin: 0 0 40px
+        a
+          color: black
+          text-decoration: none
+        &:empty
+          width: 220px
+        img
+          display: block
+          width: 100%
+
   .hero
     position: relative
     min-height: 440px
@@ -94,7 +125,7 @@ header
     justify-content: space-between
     border-bottom: 1px solid #EAEAEA
 
-  .project, .member
+  .project, .content-list
     text-decoration: none
     color: black
     h2, h3
@@ -209,33 +240,6 @@ header
     h1
       max-width: 780px
       margin-bottom: 90px
-
-    .clients, .team
-      border-top: 1px solid #EAEAEA
-      margin-top: 90px
-      padding-top: 84px
-      h2
-        font-weight: 300
-        opacity: 1
-        font-size: 32px
-
-    .team, .clients
-      .members, .our-clients
-        display: flex
-        flex-direction: row
-        flex-flow: row wrap
-        justify-content: space-between
-        margin: 10px 0 0
-        list-style: none
-        padding: 0
-        .member, .client
-          text-decoration: none
-          color: black
-          max-width: 220px
-          margin: 0 0 40px
-          img
-            display: block
-            width: 100%
 
   &.blog
     h1
