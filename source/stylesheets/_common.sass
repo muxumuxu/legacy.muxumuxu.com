@@ -8,6 +8,11 @@ body
   margin: 0
   h1
     color: black
+    display: block
+    font-weight: lighter
+    font-size: 32px
+    line-height: 44px
+    padding-top: 35px
 
 header
   max-width: 980px
@@ -32,16 +37,22 @@ header
 .wrapper
   max-width: 980px
   margin: 130px auto
+  h2
+    font-size: 14px
+    opacity: 0.5
+    font-weight: normal
+  p
+    font-size: 18px
+    line-height: 28px
+    margin-top: 5px
+
   .hero
     position: relative
     min-height: 440px
     box-shadow: inset 0 -1px 0 0 #EAEAEA
     h1
-      margin: 160px 0 0
+      margin: 125px 0 0
       max-width: 780px
-      font-weight: lighter
-      font-size: 32px
-      line-height: 44px
     img
       position: absolute
       right: 0
@@ -55,17 +66,19 @@ header
     flex-wrap: wrap
     justify-content: space-between
     border-bottom: 1px solid #EAEAEA
-    .project
-      text-decoration: none
-      color: black
-      h2
-        font-size: 20px
-        margin: 15px 0 5px
-        font-weight: normal
-      p
-        font-size: 14px
-        opacity: 0.5
-        margin-top: 0
+
+  .project
+    text-decoration: none
+    color: black
+    h2, h3
+      font-size: 20px
+      margin: 15px 0 0
+      font-weight: normal
+      opacity: 1
+    p
+      font-size: 14px
+      opacity: 0.5
+      margin-top: 0
 
   .references
     img
@@ -77,58 +90,51 @@ header
       justify-content: space-between
       p
         max-width: 460px
-        line-height: 28px
-        font-size: 18px
         margin: 30px 0 50px
 
-  .services
+  &.work
+    h1
+      max-width: 470px
+    .projects
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: space-between
+      margin-top: 100px
+      .project
+        max-width: 470px
+        display: block
+        margin-bottom: 40px
+        img
+          width: 100%
+          display: block
+
+  &.services
     position: relative
     margin-bottom: 170px
     h1
-      font-size: 32px
-      font-weight: lighter
-      display: block
-      width: 470px
+      max-width: 470px
       margin-bottom: 0
-      padding-top: 35px
     h2
-      font-size: 14px
-      opacity: 0.5
-      font-weight: normal
       padding-top: 75px
       margin-bottom: 0
     p
       display: block
       width: 470px
-      line-height: 28px
       padding-bottom: 50px
-      margin-top: 5px
       margin-bottom: 0
-      font-size: 18px
     img
       position: absolute
       right: 0
       bottom: 0
       width: 470px
 
-  .ventures
+  &.ventures
     h1
-      display: block
       max-width: 780px
-      font-weight: lighter
-      font-size: 32px
-      line-height: 42px
       margin-bottom: 70px
-      padding-top: 30px
     h2
-      font-size: 14px
-      font-weight: normal
-      opacity: 0.5
       margin-bottom: 0
-    p
-      font-size: 18px
-      line-height: 28px
-      margin-top: 5px
     .columns
       display: flex
       flex-direction: row
@@ -143,6 +149,7 @@ header
       h2
         font-size: 32px
         font-weight: lighter
+        opacity: 1
       .projects
         display: flex
         flex-direction: row
@@ -154,14 +161,10 @@ header
           color: black
           max-width: 220px
           margin: 0 0 40px
-          h3
-            font-size: 20px
-            font-weight: normal
-            margin: 18px 0 0
-          p
-            font-size: 14px
-            opacity: 0.5
-            margin: 0
+          img
+            display: block
+            width: 100%
+
     .partnerships
       position: relative
       p
@@ -173,11 +176,8 @@ header
         top: 0
         right: -38px
 
-  .blog
+  &.blog
     h1
-      font-size: 32px
-      font-weight: lighter
-      display: block
       max-width: 695px
       margin-bottom: 80px
     .article
@@ -192,9 +192,8 @@ header
         display: block
         max-width: 385px
         margin-top: 0
+        opacity: 1
       p
-        font-size: 18px
-        line-height: 28px
         display: block
         max-width: 555px
         margin-top: 0
@@ -220,7 +219,7 @@ header
   background-color: black
   text-align: center
   &:hover
-    background: url(https://media.giphy.com/media/hxXCp5X6ZBhra/giphy.gif) no-repeat center center
+    background: black url(https://media.giphy.com/media/hxXCp5X6ZBhra/giphy.gif) no-repeat center center
     background-size: cover
 
 footer
