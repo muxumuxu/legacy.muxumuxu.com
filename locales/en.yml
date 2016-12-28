@@ -147,29 +147,16 @@ en:
 
   carreers:
     intro:
-      title: Join us
-      description: |
-        <p>At Bakken & Baeck you'll get to work with an exceptionally talented team of designers and engineers in turning visionary ideas into the next generation of digital products and services.</p>
+      title: We're always hiring.
+    working:
+      title: Working with us
+      description:
         <p>We are always on the lookout for talented and highly motivated people to join our team.</p>
-    values:
-      first:
-        title: Freedom and flexibility
-        description: |
-          At Bakken & Baeck you are given the freedom and flexibility you need to thrive and realize your full potential. Structure your own workday, or work remote. You decide what suits you best.
-      second:
-        title: Build something unique
-        description: |
-          As an international team we get to bring the most interesting, innovative and exciting ideas to life together with some of the best and most renowned clients and partners in the business.
-      third:
-        title: What you need to excel
-        description: |
-          You will be provided with the tools you need to flourish. You'll get the hardware and software you need, and an amazing and dynamic work space and environment.
-      fourth:
-        title: Great trips and parties
-        description: |
-          Great parties are an important ingredient of Bakken & Baeck. Twice a year, at summer and christmas, we gather everyone in the company for a trip. We also do parties, open houses and the yearly conference An Interesting Day.
+        <p>Careers at our studio are an opportunity to practice design and code as a craft, develop products at the absolute edge of technical innovation, and influence product design as a whole.</p>
+        <p>Life is more important than design, and it’s way more important than a job. We like to make sure everyone is well paid, fully insured, and able to enjoy life outside the office.</p>
+
     benefits:
-      title: Brilliant benefits
+      title: Fantastic perks and benefits
       items:
         insurance: Great health insurance
         massage: Massage in the office
