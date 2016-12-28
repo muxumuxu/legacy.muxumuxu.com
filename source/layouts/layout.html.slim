@@ -3,18 +3,18 @@ html lang="fr"
   head
     meta http-equiv="content-type" content="text/html; charset=utf-8"
 
-    title TODO
+    title Muxu.Muxu
 
-    meta name="description" content="TODO"
-    meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" name="viewport" /
-    meta content="70ZCbtwfDLvY39retUW9MfZY-Pr_IDVscOqrrqvavto" name="google-site-verification" /
+    meta name="description" content="Muxu.Muxu is a passionate tech crew based in sunny Bordeaux"
+    meta name="viewport" content="width=device-width, initial-scale=0.9"
+    meta name="google-site-verification" content="70ZCbtwfDLvY39retUW9MfZY-Pr_IDVscOqrrqvavto"
 
-    meta property="og:site_name" content="TODO"
-    meta property="og:title" content="TODO"
+    meta property="og:site_name" content="Muxu.Muxu"
+    meta property="og:title" content="Muxu.Muxu"
     meta property="og:type" content="website"
-    meta property="og:url" content="TODO"
-    meta property="og:description" content="TODO"
-    meta property="og:image" content="http://todo.org/#{image_path('og-image.png')}"
+    meta property="og:url" content="https://muxumuxu.com/"
+    meta property="og:description" content="Muxu.Muxu is a passionate tech crew based in sunny Bordeaux"
+    meta property="og:image" content="https://muxumuxu.com/#{image_path('og-image.png')}"
 
     meta name="twitter:card" content="summary_large_image"
     meta name="twitter:site" content="@wearemuxu"
@@ -23,8 +23,8 @@ html lang="fr"
     meta name="twitter:widgets:link-color" content="#33CC33"
     meta name="twitter:widgets:border-color" content="#33CC33"
 
-    link rel="canonical" href="http://stpvote.org"
-    link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"
+    link rel="canonical" href="https://muxumuxu.com/"
+    link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"
 
     = stylesheet_link_tag 'all'
     link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" /
@@ -36,3 +36,11 @@ html lang="fr"
     = yield
     
     = partial 'shared/footer'
+    
+    javascript:
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-55187579-1', 'auto');
+      ga('send', 'pageview');
