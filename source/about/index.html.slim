@@ -1,17 +1,18 @@
 .wrapper.about-us
   h1 = t 'about.intro'
 
-  .about
-    h2 = t 'about.about-us.who'
-    = t 'about.about-us.description'
+  .content
+    .main
+      h2 = t 'about.about-us.who'
+      = t 'about.about-us.description'
 
-  .press
-    h2 = t 'about.press.title'
-    ul
-      - t('about.press.items').each do |id, item|
-        li
-          = link_to item[:url]
-            = item[:title]
+    .aside
+      h2 = t 'about.press.title'
+      ul
+        - t('about.press.items').each do |id, item|
+          li
+            = link_to item[:url]
+              = item[:title]
   
   .clients
     h2 = t 'about.clients.title'
