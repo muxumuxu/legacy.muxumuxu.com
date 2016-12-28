@@ -22,7 +22,12 @@ header
   img
     display: inline-block
     float: left
+    &.logo-mobile
+      display: none
   nav
+    a.menu
+      display: none
+      text-decoration: none
     ul
       list-style: none
       float: right
@@ -392,15 +397,15 @@ footer
     padding: 0 16px
     .logo-desktop
       display: none
-    .logo-mobile
+    img.logo-mobile
       display: inline-block
-      z-index: 10
+      z-index: 20
       position: relative
     nav
       &:hover
         ul
           display: block
-      span
+      a.menu
         display: block
         float: right
         z-index: 10

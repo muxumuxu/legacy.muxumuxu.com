@@ -3,7 +3,8 @@ header
     = image_tag "logo.svg", class: "logo-desktop"
     = image_tag "logo-small.svg", class: "logo-mobile"
   nav
-    span = t 'navigation.title'
+    = link_to "#", class: "menu" 
+      = t 'navigation.title'
     ul
       - t('navigation.links').each do |id, navigation|
         li
