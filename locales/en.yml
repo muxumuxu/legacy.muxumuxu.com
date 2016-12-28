@@ -142,6 +142,23 @@ en:
         audrey:
           name: Audrey
           title: Developer
+        luc:
+          name: Luc
+          title: Developer
+        damien:
+          name: Damien
+          title: Developer
+        david:
+          name: David
+          title: Developer
+        pierre:
+          name: Pierre
+          title: Developer
+        jimmy:
+          name: Jimmy
+          title: Developer
+
+
 
   blog:
     intro: |
@@ -215,9 +232,9 @@ en:
       title: Contact
       links:
         email:
-          title: hello@muxumuxu.com
+          title: <a href="mailto:hello@muxumuxu.com">hello@muxumuxu.com</a>
         fr-number:
-          title: +33 0 00 00 00 00
+          title: <a href="tel:+33532880193">+33 5 32 88 01 93</a>
         location:
           title: <span class="flag-fr">Bordeaux</span> / <span class="flag-us">Oakland</span>
     more:
