@@ -82,6 +82,8 @@ header
       opacity: 1
       margin-bottom: 28px !important
       font-size: 32px !important
+    p
+      margin-bottom: 0
     .list-container
       display: flex
       flex-direction: row
@@ -180,7 +182,7 @@ header
       margin-bottom: 0
     p
       display: block
-      width: 470px
+      max-width: 470px
       padding-bottom: 50px
       margin-bottom: 0
     img
@@ -294,6 +296,7 @@ footer
   flex-direction: row
   justify-content: space-between
   form
+    padding-top: 7px
     label
       display: none
     input
@@ -370,3 +373,117 @@ footer
       max-width: 300px
       p
         line-height: 23px
+
+
+@media screen and (max-width: 980px)
+  body
+    background: white
+    font-family: 'Roboto', sans-serif
+    margin: 0
+    h1
+      font-size: 26px
+      line-height: 36px
+      padding-top: 35px
+
+  header
+    max-width: 980px
+    margin: 20px auto
+    height: 20px
+    padding: 0 16px
+    .logo-desktop
+      display: none
+    .logo-mobile
+      display: inline-block
+      z-index: 10
+      position: relative
+    nav
+      &:hover
+        ul
+          display: block
+      span
+        display: block
+        float: right
+        z-index: 10
+        position: relative
+        color: #535353
+      ul
+        list-style: none
+        float: none
+        margin: 0
+        display: none
+        width: 100%
+        background: white
+        position: absolute
+        left: 0
+        top: 80px
+        height: 100%
+        z-index: 9
+        padding: 0 0 0 32px
+        li
+          display: block
+          padding: 0 0 30px
+          a
+            font-size: 16px
+            text-decoration: none
+            margin-left: 0
+
+  .hero
+    padding-bottom: 200px
+    h1
+      max-width: 780px
+    img
+      position: absolute
+      right: 0
+      bottom: 0
+      width: 100%
+
+  .wrapper
+    padding: 0 16px
+
+    .highlighted-projects
+      display: block
+      .project
+        margin-bottom: 40px
+        display: block
+        img
+          width: 100%
+          height: auto
+
+    .references
+      .columns
+        display: block
+
+    &.work
+      .projects
+        column-count: 1
+
+    &.services
+      img
+        position: relative
+        width: 100%
+        margin-top: 70px
+
+    &.ventures
+      .columns
+        display: block
+      .partnerships
+        img
+          position: static
+          width: 100%
+          margin-bottom: 20px
+
+    &.blog
+      .article
+        display: block
+        .article-content
+          padding: 0
+
+  .contact-us
+    font-size: 24px
+    padding: 120px 16px
+    width: calc(100% - 32px)
+  footer
+    padding: 0 16px
+    display: block
+    h3
+      margin-top: 60px
