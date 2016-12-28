@@ -23,3 +23,13 @@ footer
     .footer-news
       h3 = t 'footer.news.title'
       p = t 'footer.news.description'
+      /! Begin MailChimp Signup Form
+      #mc_embed_signup
+        form#mc-embedded-subscribe-form.validate action="//muxumuxu.us14.list-manage.com/subscribe/post?u=eccf5f72255b20ee4b052a622&amp;id=34f01c0455" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank" 
+          #mc_embed_signup_scroll
+            label for="mce-EMAIL" 
+              | Email Address
+            input#mce-EMAIL.required.email name="EMAIL" type="email" value="" placeholder="Enter your email..." /
+            div aria-hidden="true" style=("position: absolute; left: -5000px;") 
+              input name="b_eccf5f72255b20ee4b052a622_34f01c0455" tabindex="-1" type="text" value="" /
+            input#mc-embedded-subscribe.button name="subscribe" type="submit" value="Subscribe" /
