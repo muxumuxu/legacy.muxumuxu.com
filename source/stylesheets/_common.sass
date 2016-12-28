@@ -1,6 +1,7 @@
 *
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+  outline: none
 
 body
   background: white
@@ -230,6 +231,34 @@ footer
   display: flex
   flex-direction: row
   justify-content: space-between
+  form
+    label
+      display: none
+    input
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+      border-bottom: 1px solid
+      font-family: 'Roboto', sans-serif
+      font-size: 16px
+      padding: 12px 0
+      &.email
+        border: 0
+        border-bottom: 1px solid #D8D8D8
+        display: inline-block
+        width: 210px
+        margin: 0 10px 0 0
+        &:hover
+          border-bottom: 1px solid #B5B5B5
+        &:focus
+          border-bottom: 1px solid $color-link
+      &.button
+        border: 0
+        background: white
+        display: inline-block
+        border-bottom: 1px solid white
+        &:hover
+          color: $color-link
+          cursor: pointer
   .footer-item
     h3
       font-size: 16px
