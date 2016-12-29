@@ -2,8 +2,8 @@ header
   = link_to "../../", class: "logo"
     = image_tag "logo.svg", class: "logo-desktop"
     = image_tag "logo-small.svg", class: "logo-mobile"
-  nav
-    = link_to "#", class: "menu" 
+  nav.menu-items#menu
+    = link_to "javascript:void(0);", onclick: "myFunction()", class: "menu" 
       = t 'navigation.title'
     ul
       - t('navigation.links').each do |id, navigation|

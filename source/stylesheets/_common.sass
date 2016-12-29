@@ -163,6 +163,10 @@ header
     img
       width: 100%
       margin: 100px 0 20px
+    .clients-desktop
+      display: block
+    .clients-mobile
+      display: none
     .columns
       display: flex
       flex-direction: row
@@ -410,10 +414,9 @@ footer
       padding-top: 35px
 
   header
-    max-width: 980px
-    margin: 20px auto
+    margin: auto
     height: 20px
-    padding: 0 16px
+    padding: 20px 16px
     .logo-desktop
       display: none
     img.logo-mobile
@@ -421,9 +424,15 @@ footer
       z-index: 20
       position: relative
     nav
-      &:hover
+      &.responsive
         ul
-          display: block
+          opacity: 1
+          transition: .1s opacity linear
+          height: 100%
+          max-height: none
+          li
+            transform: translateY(0px)
+            opacity: 1
       a.menu
         display: block
         float: right
@@ -434,20 +443,27 @@ footer
         list-style: none
         float: none
         margin: 0
-        display: none
+        opacity: 0
         width: 100%
         background: white
         position: absolute
         left: 0
-        top: 80px
-        height: 100%
+        top: 90px
+        max-height: 0px
+        overflow: hidden
         z-index: 9
-        padding: 0 0 0 32px
+        padding: 0
+        transition: .3s opacity linear
         li
           display: block
           padding: 0 0 30px
+          opacity: 0
+          transform: translateY(20px)
+          transition: .2s all linear
+          text-align: center
           a
-            font-size: 16px
+            font-size: 18px
+            font-weight: 400
             text-decoration: none
             margin-left: 0
 
@@ -474,12 +490,19 @@ footer
           height: auto
 
     .references
+      .clients-desktop
+        display: none
+      .clients-mobile
+        display: block
+        margin-bottom: 60px
       .columns
         display: block
 
     &.work
       .projects
         column-count: 1
+        h1
+          min-height: auto
 
     &.services
       img
@@ -506,8 +529,9 @@ footer
     font-size: 24px
     padding: 120px 16px
     width: calc(100% - 32px)
+
   footer
-    padding: 0 16px
+    padding: 0 16px 60px
     display: block
     h3
       margin-top: 60px
