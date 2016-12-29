@@ -3,6 +3,19 @@
   -moz-osx-font-smoothing: grayscale
   outline: none
 
+::-moz-selection
+  color: #fff
+  color: rgba(255, 255, 255, 0.85)
+  background: #33CC33
+
+::selection
+  color: #fff
+  color: rgba(255, 255, 255, 0.85)
+  background: #33CC33
+
+html
+  background: #33CC33
+
 body
   background: white
   font-family: 'Roboto', sans-serif
@@ -17,7 +30,8 @@ body
 
 header
   max-width: 980px
-  margin: 70px auto
+  padding: 70px 0 0
+  margin: 0 auto
   height: 20px
   img
     display: inline-block
@@ -65,7 +79,7 @@ header
     .aside
       min-width: 352px
       ul
-        margin: 0
+        margin: 5px 0 0
         padding: 0
         list-style: none
         li
@@ -272,6 +286,10 @@ header
       .article-content
         padding-left: 40px
 
+  &.carrers
+    h1
+      margin-bottom: 90px
+
   .link
     text-decoration: none
     color: black
@@ -296,7 +314,8 @@ header
 
 footer
   max-width: 980px
-  margin: 50px auto
+  padding: 50px 0
+  margin: auto
   display: flex
   flex-direction: row
   justify-content: space-between
