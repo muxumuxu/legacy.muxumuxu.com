@@ -22,6 +22,9 @@ en:
       We also build startups of our own.
 
   projects:
+    client: Client
+    delivery: Delivery
+    visit: Visit
     list:
       streamquest-identity:
         title: StreamQuest
@@ -29,6 +32,15 @@ en:
       reech-landing:
         title: Reech
         type: Website design
+        case-study:
+          title: Reech.com
+          client: Reech
+          delivery: Website design
+          visit: reech.com
+          description: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+          quote: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
       trace-radio-app:
         title: TRACE Radio
         type: App design & development
