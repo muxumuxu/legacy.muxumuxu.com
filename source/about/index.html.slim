@@ -25,8 +25,12 @@
     h2 = t 'about.team.title'
     ul.list-container
       - t('about.team.items').each do |id, item|
-        li.list-item
-          = image_tag "team/#{id}.jpg"
+        li.list-item.team
+          .picture
+            .emoji
+              = image_tag "team/#{id}-emoji.png"
+            .gif class="#{id}"
+            = image_tag "team/#{id}.jpg"
           h3 = item[:name]
           p = item[:title]
       li.list-item
