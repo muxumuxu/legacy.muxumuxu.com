@@ -179,10 +179,20 @@ header
     .projects
       column-count: 2
       column-gap: 40px
-      h1, h2
+      h2.related
+        color: black
+        opacity: 1
+        display: block
+        font-weight: lighter
+        font-size: 32px
+        line-height: 44px
+        padding-top: 35px
+        max-width: 400px
+        display: inline-block
+      h1, h2.related
         min-height: 200px
         margin-top: 0
-      .project, h1, h2
+      .project, h1
         max-width: 470px
         display: inline-block
       .project
@@ -324,6 +334,14 @@ header
     p
       max-width: 640px
 
+  .link
+    text-decoration: none
+    color: black
+    margin-top: 50px
+    font-size: 18px
+    padding-bottom: 10px
+    border-bottom: 1px solid #33CC33
+
 .slider
   height: 640px
   .is-horizontal
@@ -332,14 +350,6 @@ header
     img
       width: 2580px
       margin: 0
-
-  .link
-    text-decoration: none
-    color: black
-    margin-top: 50px
-    font-size: 18px
-    padding-bottom: 10px
-    border-bottom: 1px solid #33CC33
 
 .contact-us
   text-decoration: none
