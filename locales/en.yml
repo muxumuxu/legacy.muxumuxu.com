@@ -29,6 +29,28 @@ en:
       streamquest-identity:
         title: StreamQuest
         type: Branding
+        case-study:
+          title: StreamQuest Identity
+          client: StreamQuest
+          delivery: Branding
+          description: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+          quote: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+      wanted-identity:
+        title: Wanted
+        type: Branding
+        case-study:
+          title: Wanted Identity
+          client: Wanted
+          delivery: Branding
+          description: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+          quote: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+      trace-radio-app:
+        title: TRACE Radio
+        type: App design & development
       reech-landing:
         title: Reech
         type: Website design
@@ -41,18 +63,6 @@ en:
             Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
           quote: |
             Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
-      trace-radio-app:
-        title: TRACE Radio
-        type: App design & development
-      wanted-identity:
-        title: Wanted
-        type: Branding
-      inch-landing:
-        title: Inch
-        type: Website design
-      azendoo-mobile:
-        title: Azendoo
-        type: App design
     more: Take a deeper look at our work →
 
   work:
