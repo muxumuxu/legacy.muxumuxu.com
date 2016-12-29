@@ -1,0 +1,39 @@
+.wrapper.case-study
+  .hero-case-study
+    h1 = t 'projects.list.wanted-identity.case-study.title'
+    ul.resume
+      li
+        h2 = t 'projects.client'
+        p = t 'projects.list.wanted-identity.case-study.client'
+      li
+        h2 = t 'projects.delivery'    
+        p = t 'projects.list.wanted-identity.case-study.delivery'
+
+  p = t 'projects.list.wanted-identity.case-study.description'
+
+.slider.wanted-identity  
+  div data-fluffy-container=""
+    div data-fluffy-content="" 
+      = image_tag "work/wanted-identity-preview.jpg"
+
+.wrapper.case-study
+
+  p = t 'projects.list.wanted-identity.case-study.quote'
+  
+  = image_tag "work/wanted-identity-banners.jpg"
+
+  = image_tag "work/wanted-identity-icons.jpg"
+
+  = image_tag "work/wanted-identity-website.jpg"
+
+.wrapper.work
+  .projects.related
+    h2.related = t 'work.related'
+    = link_to "reech-landing", class: "project"
+      = image_tag "work/reech-landing.jpg"
+      h2 = t 'projects.list.reech-landing.title'
+      p = t 'projects.list.reech-landing.type'
+    = link_to "streamquest-identity", class: "project"
+      = image_tag "work/streamquest-identity.jpg"
+      h2 = t 'projects.list.streamquest-identity.title'
+      p = t 'projects.list.streamquest-identity.type'

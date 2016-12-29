@@ -179,6 +179,8 @@ header
     .projects
       column-count: 2
       column-gap: 40px
+      &.related
+        height: 900px
       h2.related
         color: black
         opacity: 1
@@ -382,8 +384,18 @@ header
 
 .slider
   height: 640px
+  &.office
+    height: 510px
   .is-horizontal
     display: none
+  &.wanted-identity
+    img
+      width: 3381px
+      margin: 0
+  &.streamquest-identity
+    img
+      width: 3381px
+      margin: 0
   &.reech-landing
     img
       width: 2580px
@@ -595,6 +607,10 @@ footer
     &.work
       .projects
         column-count: 1
+        &.related
+          height: auto
+          h2.related
+            min-height: auto
         h1
           min-height: auto
 
