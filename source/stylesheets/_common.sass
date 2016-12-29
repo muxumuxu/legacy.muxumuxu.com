@@ -179,10 +179,10 @@ header
     .projects
       column-count: 2
       column-gap: 40px
-      h1
+      h1, h2
         min-height: 200px
         margin-top: 0
-      .project, h1
+      .project, h1, h2
         max-width: 470px
         display: inline-block
       .project
@@ -292,6 +292,46 @@ header
   &.carrers
     h1
       margin-bottom: 90px
+
+  &.case-study
+    .hero-case-study
+      h1
+        margin-bottom: 50px
+      .resume
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+        margin: 0 0 50px
+        padding: 0 0 50px
+        list-style: none
+        border-bottom: 1px solid #EAEAEA
+        li
+          margin: 0
+          padding: 0 160px 0 0
+          a
+            color: black
+            text-decoration: none
+            border-bottom: 1px solid #33CC33
+            padding: 0 0 6px
+          p, h2
+            padding: 0
+            margin: 0
+    img
+      max-width: 980px
+      display: block
+      margin: 100px 0 0
+    p
+      max-width: 640px
+
+.slider
+  height: 640px
+  .is-horizontal
+    display: none
+  &.reech-landing
+    img
+      width: 2580px
+      margin: 0
 
   .link
     text-decoration: none
@@ -530,6 +570,18 @@ footer
         display: block
         .article-content
           padding: 0
+
+    &.case-study
+      .hero-case-study
+        h1
+          margin-bottom: 50px
+        .resume
+          display: block
+          li
+            margin: 30px 0 0
+            padding: 0
+      img
+        width: 100%
 
   .contact-us
     font-size: 24px
