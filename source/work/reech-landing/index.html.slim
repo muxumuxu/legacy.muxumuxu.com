@@ -1,19 +1,30 @@
 .wrapper.case-study
-  .hero 
+  .hero-case-study
     h1 = t 'projects.list.reech-landing.case-study.title'
-    ul
+    ul.resume
       li
-        strong = t 'projects.client'
+        h2 = t 'projects.client'
         p = t 'projects.list.reech-landing.case-study.client'
       li
-        strong = t 'projects.delivery'    
+        h2 = t 'projects.delivery'    
         p = t 'projects.list.reech-landing.case-study.delivery'
       li
-        strong = t 'projects.visit'
+        h2 = t 'projects.visit'
         p = t 'projects.list.reech-landing.case-study.visit'
 
   p = t 'projects.list.reech-landing.case-study.description'
-  
-  .slider
+
+.slider.reech-landing  
+  div data-fluffy-container=""
+    div data-fluffy-content="" 
+      = image_tag "work/reech-landing-preview.jpg"
+
+.wrapper.case-study
 
   p = t 'projects.list.reech-landing.case-study.quote'
+  
+  = image_tag "work/reech-landing-team.jpg"
+  
+  = image_tag "work/reech-landing-samples.jpg"
+  
+  = image_tag "work/reech-landing-agencies.jpg"

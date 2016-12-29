@@ -36,7 +36,7 @@ en:
           title: Reech.com
           client: Reech
           delivery: Website design
-          visit: reech.com
+          visit: <a href="https://www.reech.com/">reech.com →</a>
           description: |
             Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
           quote: |
@@ -58,6 +58,8 @@ en:
   work:
     title: |
       We work with startup and companies we believe in.
+    related: |
+      Related project we’ve loved to make.
 
   services:
     intro: Code-based. Design-obsessed. Future-forward.
