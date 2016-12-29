@@ -274,6 +274,44 @@ header
     h1
       max-width: 780px
       margin-bottom: 90px
+    .list-item.team
+      .picture
+        width: 220px
+        height: 220px
+        border-radius: 4px
+        overflow: hidden
+        position: relative
+        &:hover
+          .emoji, .gif
+            opacity: 1
+            transition: .3s opacity linear
+        .emoji
+          width: 220px
+          height: 220px
+          position: absolute
+          opacity: 0
+          transition: .3s opacity linear
+          top: 0
+          left: 0
+          z-index: 11
+          background-image: linear-gradient(-180deg, rgba(98,232,98,0.8) 0%, rgba(50,204,50,0.7) 100%)
+        .gif
+          background-size: cover
+          width: 220px
+          opacity: 0
+          transition: .3s opacity linear
+          height: 220px
+          position: absolute
+          top: 0
+          left: 0
+          z-index: 10
+          &.audrey
+            background: url(https://media.giphy.com/media/ChpOyeacGmpQk/giphy.gif) no-repeat center center
+        img
+          position: absolute
+          top: 0
+          left: 0
+          z-index: 9
 
   &.blog
     h1
