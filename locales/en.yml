@@ -51,6 +51,14 @@ en:
       trace-radio-app:
         title: TRACE Radio
         type: App design & development
+        case-study:
+          title: TRACE Radio
+          client: TRACE
+          delivery: Design, development iOS & Android
+          description: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+          quote: |
+            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
       reech-landing:
         title: Reech
         type: Website design
@@ -159,7 +167,29 @@ en:
       title: Our beloved clients
       items:
         inch:
-          title: inch
+          title: Inch
+        streamquest:
+          title: StreamQuest
+        quorum:
+          title: Quorum
+        azendoo:
+          title: Azendoo
+        wanted:
+          title: Wanted
+        sodif:
+          title: sodif
+        colombers:
+          title: Colombers
+        reech:
+          title: Reech
+        trace:
+          title: Trace
+        robinfinance:
+          title: Robin'Finance
+        clicboutic:
+          title: clicboutic
+        hemera:
+          title: hemera
     team:
       title: Our team of passionates
       items:
