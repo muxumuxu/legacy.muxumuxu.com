@@ -2,7 +2,7 @@
   .projects
     h1 = t 'work.title'
     - t('projects.list').each do |id, project|
-      = link_to "work/#{id}", class: "project"
+      = link_to "../work/#{id}", class: "project"
         = image_tag "work/#{id}.jpg"
         h2 = project[:title]
         p = project[:type]
