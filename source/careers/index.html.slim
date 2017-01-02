@@ -1,21 +1,21 @@
 .wrapper.carrers
-  h1 = t 'carreers.intro.title'
+  h1 = t 'careers.intro.title'
 
   .content
     .main
-      h2 = t 'carreers.working.title'
-      = t 'carreers.working.description'
+      h2 = t 'careers.working.title'
+      = t 'careers.working.description'
 
     .aside
-      h2 = t 'carreers.benefits.title'
+      h2 = t 'careers.benefits.title'
       ul
-        - t('carreers.benefits.items').each do |id, item|
+        - t('careers.benefits.items').each do |id, item|
           li = "#{id}"
 
   .positions.content-list
-    h2 = t 'carreers.positions.title'
+    h2 = t 'careers.positions.title'
     ul.list-container
-      - t('carreers.positions.items').each do |id, item|
+      - t('careers.positions.items').each do |id, item|
         li.list-item
           = link_to "#{id}", target: "_blank"
             h3 = item[:title]
