@@ -12,14 +12,14 @@ en:
         title: About
       blog:
         title: Blog
-      carreers:
-        title: Carreers
+      careers:
+        title: Careers
 
   intro:
     title: |
-      We help startups and established companies invent, build, and launch their next product or venture.
+      We help startups and established companies to invent, build, and launch their next product or venture.
       <br><br/>
-      We also build startups of our own.
+      We also build ventures of our own.
 
   projects:
     client: Client
@@ -71,7 +71,7 @@ en:
             Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
           quote: |
             Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
-    more: Take a deeper look at our work →
+    more: Take a closer look at our work →
 
   work:
     title: |
@@ -84,22 +84,22 @@ en:
     about:
       title: What we do
       description: |
-        Making great products is why we get up in the morning. With an obsession for well designed products and a relentless attention to detail, we will always put the product first.<br>
-        <br>We turn sketches into a prototype as quickly as possible. We aim to spend less time fiddling with plans and specs, and more time producing. We gave an experimental and collaborative approach. With quick iterations we pursue a short time to launched product.
+        Making great products is why we get up in the morning. With an obsession for well-designed products and a relentless attention to detail, we will always put the product first.<br>
+        <br>We turn sketches into a prototype as quickly as can be. Our aim is to spend less time fiddling with plans and specs, and more time producing. Our approach is experimental and collaborative. Above all, we iterate quickly for a short time to product launch.
       more: Get in touch →
 
   ventures:
     intro: |
-        We build and launch our own ventures, but we also work with founders and compagnies to transform good ideas into great products and services.
+        We build and launch our own ventures, but we also work with founders and companies to transform good ideas into great products and services.
     what:
       one:
         title: Our own ventures
         description: |
-          We usually form new companies based on our own ideas and products, doing everything from design to funding ourselves. We invent, design and build the product before hiring a new team to bring the product out into the world.
+          We tend to form new companies based on our own ideas and products, handling everything from design to funding in house. We invent, design and build the product before bringing in a fresh team of talent to take the product out into the world.
       two:
         title: Partnerships
         description: |
-          Sometimes we form equity or royalty-based partnerships with big companies or small startups. Together we create new products and services, improve existing products, or launch a completely new area of business.
+          Sometimes we form equity or royalty-based partnerships. Together with big companies or small startups, we create new products and services, improve existing products, or launch a completely new area of business.
     portfolio:
       title: Portfolio
       projects:
@@ -125,20 +125,20 @@ en:
     partnerships:
       title: What we do in a partnership
       description: |
-        <p>With over a decade of experience with designing and building high quality digital products that people love, our team knows what it takes to launch successful and disruptive products.</p>
-        <p>We also know what common pit-falls most startups are facing, like how hard and time consuming it is to find the right team and keep the necessary speed when building their product. We already have a complete team ready to take your product from idea to prototype and beyond. Combining heavy technical expertise within machine learning and artificial intelligence with a relentless focus on product design and user experience makes us capable of building unique products quickly.</p>
-        <p>In addition to our own team we offer an external network of experts that includes some of the world's top founders, investors and advisors. A valuable resource to tap into when scaling or getting funding for your business.</p>
+        <p>Our team has over a decade of experience of designing and building high-quality digital products that people love. We really know what it takes to launch successful and disruptive ventures.</p>
+        <p>We also know the common pitfalls being faced by most startups right now - how tricky and time consuming it can be to find the right team, how hard it can be to maintain the necessary momentum in the build. We have a complete team at the ready, to take your product from idea to prototype and beyond. The combination of our strong technical expertise in machine learning and artificial intelligence, and our relentless focus on product design and user experience, enables us to build unique products quickly and competently.</p>
+        <p>In addition to our in-house team, we collaborate with an external network of experts that includes some of the world's top founders, investors and advisors. We have valuable resources at our fingertips, to tap into when scaling or getting funding for your business.</p>
       more: Get in touch →
 
   about:
     intro: |
-        We’re an independent creative studio from Bordeaux, France. We work with bold teams we believe in.
+      We are an independent creative studio based out of Bordeaux, France. We work with bold teams we believe in.
     about-us:
-      who: 100% no bullshit guaranted
+      who: 100% zero bullshit, guaranteed.
       description: |
-        <p>Over the past 8 years, we’ve helped everyone from tiny web startups to established companies build experiences that are simple, beautiful, and easy to use.</p>
-        <p>Muxu.Muxu is made up of passionate makers. As a team we contribute with everything from product design, prototyping and branding to development.</p>
-        <p>We’re not here to sell—we’re here to share through experiences. We lay the foundation for sustainable growth.</p>
+        <p>Over the past 8 years, we’ve helped tiny web startups and established companies alike, to build experiences that are simple, beautiful, and easy to use.</p>
+        <p>At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage from product design, prototyping and branding right through to development.</p>
+        <p>We’re not here to sell: we’re here to share through experiences. We lay the foundations for sustainable future growth.</p>
     press:
       title: Select Press & Mentions
       items:
@@ -216,7 +216,7 @@ en:
 
   blog:
     intro: |
-      Muxu.Blog: Thoughts on the internet, technology, experiences, development and design.
+      Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
       one-week-one-app:
         title: |
@@ -239,15 +239,15 @@ en:
         source: Atomic
         link: http://blog.atomic.io/design/luc-chaissac-diversity-community-collaboration-prototyping
 
-  carreers:
+  careers:
     intro:
       title: We're always hiring.
     working:
       title: Working with us
       description:
-        <p>We are always on the lookout for talented and highly motivated people to join our team.</p>
-        <p>Careers at our studio are an opportunity to practice design and code as a craft, develop products at the absolute edge of technical innovation, and influence product design as a whole.</p>
-        <p>Life is more important than design, and it’s way more important than a job. We like to make sure everyone is well paid, fully insured, and able to enjoy life outside the office.</p>
+        <p>We are always open-minded to new talent, and hungry for highly motivated people to join our team.</p>
+        <p>Careers at our studio are an opportunity to practice design and code as a craft, to develop products at the cutting edge of technical innovation, and to influence trends in product design.</p>
+        <p>Life is more important than design, and it’s way more important than a job. We like to make sure everyone is well paid, well fed, fully insured, and able to enjoy life outside the office.</p>
 
     benefits:
       title: Fantastic perks and benefits
@@ -271,9 +271,9 @@ en:
   clients:
     description:
       we-help-startups: |
-        We help startups and companies we believe in to create and improve digital products and services through long lasting and mutually rewarding relationships.
+        We help startups and companies that we believe in, to create and improve their digital products and services. We pride ourselves on building relationships that are long-lasting and mutually rewarding.
       person-based: |
-        Muxu.Muxu is made up of passionate makers. As a team we contribute with everything from product design, prototyping and branding to development.
+        At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage from product design, prototyping and branding right through to development.
     more: Read about our services →
 
   contact-us:
@@ -309,6 +309,6 @@ en:
     news:
       title: Muxu.News
       description: |
-        Give us your email and we'll keep you in the loop with our latest projects.
+        Give us your email and we'll keep you in the know about our latest projects.
       subscribe:
         title: Subscribe
