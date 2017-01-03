@@ -19,7 +19,7 @@ en:
     title: |
       We help startups and established companies to invent, build, and launch their next product or venture.
       <br><br/>
-      We also build ventures of our own.
+      We also launch ventures of our own.
 
   projects:
     client: Client
@@ -34,9 +34,9 @@ en:
           client: StreamQuest
           delivery: Branding
           description: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            StreamQuest TODO
           quote: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            StreamQuest TODO
       wanted-identity:
         title: Wanted
         type: Branding
@@ -45,9 +45,9 @@ en:
           client: Wanted
           delivery: Branding
           description: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            Wanted TODO
           quote: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            Wanted TODO
       trace-radio-app:
         title: TRACE Radio
         type: App design & development
@@ -56,9 +56,9 @@ en:
           client: TRACE
           delivery: Design, development iOS & Android
           description: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            TRACE TODO
           quote: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            TRACE TODO
       reech-landing:
         title: Reech
         type: Website design
@@ -68,9 +68,9 @@ en:
           delivery: Website design
           visit: <a href="https://www.reech.com/">reech.com →</a>
           description: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            Reech TODO
           quote: |
-            Inch provides software, hardware and content for customized music streaming for businesses. We helped turn Inch into a scalable tech business by redesigning and rebuilding their entire range of products.
+            Reech TODO
     more: Take a closer look at our work →
 
   work:
@@ -95,11 +95,11 @@ en:
       one:
         title: Our own ventures
         description: |
-          We tend to form new companies based on our own ideas and products, handling everything from design to funding in house. We invent, design and build the product before bringing in a fresh team of talent to take the product out into the world.
+          We tend to form new companies based on our own ideas and products, handling everything from design to funding in-house. We invent, design and build the product before bringing in a fresh team of talent to take the product out into the world.
       two:
         title: Partnerships
         description: |
-          Sometimes we form equity or royalty-based partnerships. Together with big companies or small startups, we create new products and services, improve existing products, or launch a completely new area of business.
+          Sometimes we form equity or royalty-based partnerships. Together with large companies or small startups, we create new products and services, improve an existing product, or launch a completely new area of business.
     portfolio:
       title: Portfolio
       projects:
@@ -125,8 +125,8 @@ en:
     partnerships:
       title: What we do in a partnership
       description: |
-        <p>Our team has over a decade of experience of designing and building high-quality digital products that people love. We really know what it takes to launch successful and disruptive ventures.</p>
-        <p>We also know the common pitfalls being faced by most startups right now - how tricky and time consuming it can be to find the right team, how hard it can be to maintain the necessary momentum in the build. We have a complete team at the ready, to take your product from idea to prototype and beyond. The combination of our strong technical expertise in machine learning and artificial intelligence, and our relentless focus on product design and user experience, enables us to build unique products quickly and competently.</p>
+        <p>Our team has over a decade of experience in designing and building high-quality digital products that people love. We really know what it takes to launch successful and disruptive ventures.</p>
+        <p>We also know the common pitfalls being faced by most startups right now - how tricky and time consuming it can be to find the right team, how hard it can be to maintain momentum in the build. We have a complete team at the ready, to take your product from idea to prototype, and beyond. The combination of our strong technical expertise in machine learning and artificial intelligence, and our relentless focus on product design and user experience, enables us to build unique products quickly and competently.</p>
         <p>In addition to our in-house team, we collaborate with an external network of experts that includes some of the world's top founders, investors and advisors. We have valuable resources at our fingertips, to tap into when scaling or getting funding for your business.</p>
       more: Get in touch →
 
@@ -137,11 +137,14 @@ en:
       who: 100% zero bullshit, guaranteed.
       description: |
         <p>Over the past 8 years, we’ve helped tiny web startups and established companies alike, to build experiences that are simple, beautiful, and easy to use.</p>
-        <p>At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage from product design, prototyping and branding right through to development.</p>
+        <p>At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage: from product design, prototyping and branding right through to development.</p>
         <p>We’re not here to sell: we’re here to share through experiences. We lay the foundations for sustainable future growth.</p>
     press:
       title: Select Press & Mentions
       items:
+        thenextweb:
+          title: The Next Web, The best Chrome extensions
+          url: http://thenextweb.com/apps/2016/12/28/the-best-chrome-extensions-to-boost-your-productivity-in-2017/
         producthunt:
           title: Product Hunt, 1,000 Upvote Club
           url: https://www.producthunt.com/tech/papier
@@ -247,7 +250,7 @@ en:
       description:
         <p>We are always open-minded to new talent, and hungry for highly motivated people to join our team.</p>
         <p>Careers at our studio are an opportunity to practice design and code as a craft, to develop products at the cutting edge of technical innovation, and to influence trends in product design.</p>
-        <p>Life is more important than design, and it’s way more important than a job. We like to make sure everyone is well paid, well fed, fully insured, and able to enjoy life outside the office.</p>
+        <p>Life is more important than design or development, and it’s way more important than a job. We like to make sure everyone is well paid, well fed, fully insured, and able to enjoy life outside the office.</p>
 
     benefits:
       title: Fantastic perks and benefits
@@ -267,13 +270,16 @@ en:
         android-devloper:
           title: Android Developer
           contract: Full time
+        motion-designer:
+          title: Motion Designer
+          contract: Full time
 
   clients:
     description:
       we-help-startups: |
-        We help startups and companies that we believe in, to create and improve their digital products and services. We pride ourselves on building relationships that are long-lasting and mutually rewarding.
+        We help the startups and companies that we believe in, to create and improve their digital products and services. We pride ourselves on building relationships that are long-lasting and mutually rewarding.
       person-based: |
-        At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage from product design, prototyping and branding right through to development.
+        At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage: from product design, prototyping and branding right through to development.
     more: Read about our services →
 
   contact-us:
