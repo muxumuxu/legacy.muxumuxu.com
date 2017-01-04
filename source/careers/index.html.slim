@@ -10,7 +10,7 @@
       h2 = t 'careers.benefits.title'
       ul
         - t('careers.benefits.items').each do |id, item|
-          li = "#{id}"
+          li = item[:title]
 
   .positions.content-list
     h2 = t 'careers.positions.title'

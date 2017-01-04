@@ -257,12 +257,18 @@ en:
     benefits:
       title: Fantastic perks and benefits
       items:
-        insurance: Great health insurance
-        massage: Massage in the office
-        parental-leave: Parental leave bonus package
-        coffee: Best coffee in town
-        conferences: Relevant conferences and courses
-        food: Free breakfast and lunch
+        insurance:
+          title: Great health insurance
+        massage:
+          title: Massage in the office
+        coffee:
+          title: Best coffee in town
+        conferences:
+          title: Relevant conferences and courses
+        food:
+          title: Free breakfast and lunch
+        vhs:
+          title: The Fifth Element VHS 📼
     positions:
       title : Join us
       items:
