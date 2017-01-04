@@ -200,22 +200,22 @@ en:
       items:
         audrey:
           name: Audrey
-          title: Developer
+          title: Web Developer
         luc:
           name: Luc
-          title: Developer
+          title: Designer
         damien:
           name: Damien
-          title: Developer
+          title: Designer
         david:
           name: David
-          title: Developer
+          title: iOS Advisor
         pierre:
           name: Pierre
-          title: Developer
+          title: Web Developer
         jimmy:
           name: Jimmy
-          title: Developer
+          title: Android Developer
 
 
 
