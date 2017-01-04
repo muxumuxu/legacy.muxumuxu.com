@@ -302,7 +302,7 @@ en:
       links:
         dribbble:
           title: Dribbble
-          link:
+          link: https://dribbble.com/wearemuxu
         twitter:
           title: Twitter
           link: https://twitter.com/wearemuxu
@@ -311,7 +311,7 @@ en:
           link: https://www.facebook.com/wearemuxu
         instagram:
           title: Instagram
-          link:
+          link: https://www.instagram.com/wearemuxu/
     news:
       title: Muxu.News
       description: |
