@@ -282,6 +282,17 @@ en:
         At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage: from product design, prototyping and branding right through to development.
     more: Read about our services →
 
+  error-page:
+    title: |
+      💩 Oh shit.
+      <br>You weren’t supposed to find this place.
+    link: |
+      Back to homepage →
+    video: |
+      📽 One of the reason why we love so much green color 💚
+    legend: |
+      * Not related to this video, did you know that “muxu” means “kiss” in Basque? Voilà.
+
   contact-us:
     mailto: |
       Let's talk.</br>

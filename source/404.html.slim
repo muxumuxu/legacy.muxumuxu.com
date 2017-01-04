@@ -1,10 +1,9 @@
 .wrapper
-  h1 💩 Oh shit.
-  p You weren’t supposed to find this place.to make this website better.
+  h1 = t 'error-page.title'
   = link_to "../", class: "link"
-    span Back to homepage → 
+    = t 'error-page.link'
   
-  p One of the reason why we love so much green color 💚
+  p.btw = t 'error-page.video'
   iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/rKHh3EIFcZw" width="560" 
   
-  span *By the way, did you know that “muxu” means “kiss” in Basque? Voilà.
+  span.reason = t 'error-page.legend'
