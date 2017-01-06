@@ -1,15 +1,20 @@
 # Muxu.Muxu
 
-Muxu.Muxu website available at http://muxumuxu.com.
+## Development
 
 ```
 bundle install
 bundle exec middleman
-middleman
 open http://localhost:4567
 ```
 
-# Renewing SSL certificate
+## Deployment on Surge
+
+```
+./deploy.sh
+```
+
+## Renewing SSL certificate
 
 We use [letsencrypt](https://letsencrypt.org/) in order to verify our certificate.
 
