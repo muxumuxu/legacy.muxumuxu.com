@@ -1,8 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="653px" height="438px" viewBox="0 0 653 438" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
-    <title>illustration-export</title>
-    <desc>Created with Sketch.</desc>
+
+    <script>
+      function toggleDoor() {
+        var myButtonClasses = document.getElementById("garage").classList;
+        if (myButtonClasses.contains("garage-door-close")) {
+          myButtonClasses.remove("garage-door-close");
+        } else {
+          myButtonClasses.add("garage-door-close");
+        }
+      }
+    </script>
+
+
+    <style>
+
+      #cloud {
+        animation: 60s cloud-animation ease-in-out infinite;
+        transform: translateX(-100px);
+      }
+
+      @keyframes cloud-animation {
+        0% {
+          transform: translateX(-100px);
+        }
+        50% {
+          transform: translateX(90px);
+        }
+        100% {
+          transform: translateX(-100px);
+        }
+      }
+
+      .green-dot {
+        animation: 2s fade-out-in ease-in-out infinite;
+      }
+
+      #green-dot-1 {
+        animation-delay: .3s;
+      }
+
+      #green-dot-3 {
+        animation-delay: .6s;
+      }
+
+      @keyframes fade-out-in {
+        0% {
+          opacity: 1;
+        }
+        25% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        75% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      #garage #garage-door {
+        transform: translateY(0px);
+        transition: .5s linear;
+        cursor: pointer;
+      }
+
+      #garage.garage-door-close #garage-door {
+        transform: translateY(23px);
+        transition: .5s linear;
+      }
+
+      #garage #garage-door #top-door {
+        transition: .5s linear;
+      }
+
+      #garage.garage-door-close #garage-door #top-door {
+        transform: translateY(-23px);
+        height: 35px;
+        transition: .5s linear;
+      }
+
+      #garage #garage-door #door-line {
+        transition: .5s linear;
+      }
+
+      #garage.garage-door-close #garage-door #door-line {
+        transform: translateY(-3px);
+        transition: .5s linear;
+      }
+
+      #garage #garage-door #door-line-up {
+        transition: .5s linear;
+      }
+
+      #garage.garage-door-close #garage-door #door-line-up {
+        transform: translateY(-14px);
+        transition: .5s linear;
+      }
+
+    </style>
+
     <defs>
         <circle id="path-1" cx="604.5" cy="63.5" r="32.5"></circle>
         <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="65" height="65" fill="white">
@@ -269,8 +369,8 @@
                             <rect id="Rectangle-18" fill="#EDEDED" x="6" y="12" width="10" height="2" rx="1"></rect>
                             <rect id="Rectangle-18" fill="#FFFFFF" x="16" y="4" width="10" height="2" rx="1"></rect>
                             <rect id="Rectangle-18" fill="#EDEDED" x="0" y="4" width="10" height="2" rx="1"></rect>
-                            <rect id="Rectangle-18" fill="#33CC33" x="12" y="4" width="2" height="2" rx="1"></rect>
-                            <rect id="Rectangle-18" fill="#33CC33" x="18" y="12" width="2" height="2" rx="1"></rect>
+                            <rect id="green-dot-1" class="green-dot" fill="#33CC33" x="12" y="4" width="2" height="2" rx="1"></rect>
+                            <rect id="green-dot-2" class="green-dot" fill="#33CC33" x="18" y="12" width="2" height="2" rx="1"></rect>
                             <rect id="Rectangle-18" fill="#EDEDED" x="22" y="12" width="4" height="2" rx="1"></rect>
                         </g>
                         <g id="Group-4" transform="translate(57.000000, 35.000000) scale(-1, -1) translate(-57.000000, -35.000000) translate(46.000000, 28.000000)">
@@ -279,8 +379,8 @@
                             <rect id="Rectangle-18" fill="#EDEDED" x="0" y="12" width="10" height="2" rx="1"></rect>
                             <rect id="Rectangle-18" fill="#EDEDED" x="12" y="4" width="10" height="2" rx="1"></rect>
                             <rect id="Rectangle-18" fill="#FFFFFF" x="0" y="4" width="10" height="2" rx="1"></rect>
-                            <rect id="Rectangle-18" fill="#33CC33" x="0" y="0" width="2" height="2" rx="1"></rect>
-                            <rect id="Rectangle-18" fill="#33CC33" x="12" y="12" width="2" height="2" rx="1"></rect>
+                            <rect id="green-dot-3" class="green-dot" fill="#33CC33" x="0" y="0" width="2" height="2" rx="1"></rect>
+                            <rect id="green-dot-4" class="green-dot" fill="#33CC33" x="12" y="12" width="2" height="2" rx="1"></rect>
                             <rect id="Rectangle-18" fill="#EDEDED" x="16" y="12" width="4" height="2" rx="1"></rect>
                         </g>
                         <use id="Rectangle-15" stroke="#000000" mask="url(#mask-24)" stroke-width="4" fill="#EDEDED" xlink:href="#path-23"></use>
@@ -321,7 +421,7 @@
                     <use id="Combined-Shape" mask="url(#mask-58)" transform="translate(236.000000, 9.500000) scale(-1, 1) translate(-236.000000, -9.500000) " xlink:href="#path-57"></use>
                     <use id="Combined-Shape" mask="url(#mask-60)" xlink:href="#path-59"></use>
                 </g>
-                <g id="garage" transform="translate(14.000000, 334.000000)">
+                <g id="garage" onclick="toggleDoor()" transform="translate(14.000000, 334.000000)">
                     <use id="Rectangle-7" stroke="#000000" mask="url(#mask-62)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-61"></use>
                     <use id="Rectangle-7" stroke="#000000" mask="url(#mask-64)" stroke-width="4" fill="#EDEDED" xlink:href="#path-63"></use>
                     <use id="Rectangle-7" stroke="#000000" mask="url(#mask-66)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-65"></use>
@@ -361,11 +461,15 @@
                             <use id="Rectangle-7" stroke="#000000" mask="url(#mask-108)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-107"></use>
                             <use id="Rectangle-7" stroke="#000000" mask="url(#mask-110)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-109"></use>
                         </g>
-                        <rect id="Rectangle-8" fill="#FFFFFF" x="2" y="2" width="56" height="12"></rect>
-                        <rect id="Rectangle-8" fill="#000000" x="2" y="8" width="56" height="2"></rect>
-                        <rect id="Rectangle-8" fill="#FFFFFF" x="2" y="10" width="56" height="11"></rect>
-                        <rect id="Rectangle-8" fill="#000000" x="2" y="19" width="56" height="2"></rect>
-                        <rect id="Rectangle-8" fill="#000000" x="27" y="14" width="6" height="2"></rect>
+                        <g id="garage-door">
+                          <rect id="top-door" fill="#FFFFFF" x="2" y="2" width="56" height="12"></rect>
+                          <rect id="door-line-up" fill="#000000" x="2" y="0" width="56" height="2"></rect>
+                          <rect id="door-line" fill="#000000" x="2" y="0" width="56" height="2"></rect>
+                          <rect id="Rectangle-8" fill="#000000" x="2" y="8" width="56" height="2"></rect>
+                          <rect fill="#FFFFFF" x="2" y="10" width="56" height="11"></rect>
+                          <rect id="Rectangle-8" fill="#000000" x="2" y="19" width="56" height="2"></rect>
+                          <rect id="Rectangle-8" fill="#000000" x="27" y="14" width="6" height="2"></rect>
+                        </g>
                     </g>
                 </g>
                 <g id="trees" transform="translate(125.000000, 346.000000)" stroke="#000000" stroke-width="4" fill="#FFFFFF">
