@@ -64,40 +64,41 @@
 
       #garage #garage-door {
         transform: translateY(0px);
-        transition: 1s linear;
+        transition: .5s linear;
+        cursor: pointer;
       }
 
       #garage.garage-door-close #garage-door {
         transform: translateY(23px);
-        transition: 1s linear;
+        transition: .5s linear;
       }
 
       #garage #garage-door #top-door {
-        transition: 1s linear;
+        transition: .5s linear;
       }
 
       #garage.garage-door-close #garage-door #top-door {
         transform: translateY(-23px);
         height: 35px;
-        transition: 1s linear;
+        transition: .5s linear;
       }
 
       #garage #garage-door #door-line {
-        transition: 1s linear;
+        transition: .5s linear;
       }
 
       #garage.garage-door-close #garage-door #door-line {
         transform: translateY(-3px);
-        transition: 1s linear;
+        transition: .5s linear;
       }
 
       #garage #garage-door #door-line-up {
-        transition: 1s linear;
+        transition: .5s linear;
       }
 
       #garage.garage-door-close #garage-door #door-line-up {
         transform: translateY(-14px);
-        transition: 1s linear;
+        transition: .5s linear;
       }
 
     </style>
