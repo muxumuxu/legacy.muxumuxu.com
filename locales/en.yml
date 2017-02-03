@@ -112,7 +112,7 @@ en:
         papier:
           title: Papier
           type: Productivity
-          link: https://getpapier.com/
+          link: http://getpapier.com/
         dependn:
           title: Dependn'
           type: Health
@@ -223,6 +223,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      welcome-to-the-Muxu-Muxu-tribe:
+        title: |
+          Welcome to the Muxu.Muxu tribe
+        description: |
+          Above all, Muxu.Muxu are driven by a desire to create exciting things, produce quality output and build long-lasting relationships.
+        source: Medium
+        link: https://medium.com/@EmilyFiennes/welcome-to-the-muxu-muxu-tribe-1d7ec8c9705a#.jsamxfe6z
       one-week-one-app:
         title: |
           Muxu.Muxu bootcamp: one week, one app, one thousand Upvotes
