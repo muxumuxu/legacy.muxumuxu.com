@@ -207,9 +207,9 @@ en:
         damien:
           name: Damien
           title: Designer
-        david:
-          name: David
-          title: iOS Advisor
+        #david:
+          #name: David
+          #title: iOS Advisor
         pierre:
           name: Pierre
           title: Product Advisor
