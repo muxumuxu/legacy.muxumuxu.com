@@ -11,7 +11,7 @@
       ul
         - t('about.press.items').each do |id, item|
           li
-            = link_to item[:url]
+            = link_to item[:url], target: "_blank"
               = item[:title]
   
   .clients.content-list
