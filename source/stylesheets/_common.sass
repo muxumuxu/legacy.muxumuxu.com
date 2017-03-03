@@ -378,7 +378,7 @@ header
           p, h2
             padding: 0
             margin: 0
-    svg
+    img
       max-width: 980px
       display: block
       margin: 100px 0 0
@@ -437,12 +437,19 @@ header
   font-weight: 300
   display: block
   width: 100%
-  padding: 170px 0
   background-color: black
   text-align: center
+  background: black url(../images/contact.gif) no-repeat center center
+  background-size: cover
+  span
+    background: rgba(0, 0, 0, 1)
+    display: block
+    padding: 170px 0
+    transition: .3s all
   &:hover
-    background: black url(https://media.giphy.com/media/hxXCp5X6ZBhra/giphy.gif) no-repeat center center
-    background-size: cover
+    span
+      background: rgba(0, 0, 0, 0.75)
+      transition: .3s all
 
 footer
   max-width: 980px
@@ -679,8 +686,14 @@ footer
 
   .contact-us
     font-size: 24px
-    padding: 120px 16px
-    width: calc(100% - 32px)
+    width: 100%
+    background: none
+    span
+      padding: 120px 16px
+    &:hover
+      span
+        background: black
+        transition: none
 
   footer
     padding: 0 16px 60px

@@ -112,7 +112,7 @@ en:
         papier:
           title: Papier
           type: Productivity
-          link: https://getpapier.com/
+          link: http://getpapier.com/
         dependn:
           title: Dependn'
           type: Health
@@ -177,8 +177,8 @@ en:
           title: StreamQuest
         quorum:
           title: Quorum
-        azendoo:
-          title: Azendoo
+        lattice:
+          title: Lattice
         wanted:
           title: Wanted
         sodif:
@@ -207,9 +207,9 @@ en:
         damien:
           name: Damien
           title: Designer
-        david:
-          name: David
-          title: iOS Advisor
+        #david:
+          #name: David
+          #title: iOS Advisor
         pierre:
           name: Pierre
           title: Product Advisor
@@ -223,6 +223,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      welcome-to-the-Muxu-Muxu-tribe:
+        title: |
+          Welcome to the Muxu.Muxu tribe
+        description: |
+          Above all, Muxu.Muxu are driven by a desire to create exciting things, produce quality output and build long-lasting relationships.
+        source: Medium
+        link: https://medium.com/@EmilyFiennes/welcome-to-the-muxu-muxu-tribe-1d7ec8c9705a#.jsamxfe6z
       one-week-one-app:
         title: |
           Muxu.Muxu bootcamp: one week, one app, one thousand Upvotes
@@ -337,3 +344,38 @@ en:
         Give us your email and we'll keep you in the know about our latest projects.
       subscribe:
         title: Subscribe
+
+  ascii:
+    art: |
+      <!--
+      M                                                M
+      MM.                                            .MM
+      MMMM.                                        .MMMM
+      MMMMMM.                                    .MMMMMM
+      MMMMMMMM.                                .MMMMMMMM
+      MMMMMMMMMMM                             MMMMMMMMMM
+      MMMMMMMMMMMMM                         MMMMMMMMMMMM
+      MMMMMMMMMMMMMMM                     MMMMMMMMMMMMMM
+      MMMMMMM MMMMMMMMM.               .MMMMMMMM MMMMMMM
+      MMMMMMM  MMMMMMMMMM             MMMMMMMMM  MMMMMMM
+      MMMMMMM    MMMMMMMMMM.       .MMMMMMMMM    MMMMMMM
+      MMMMMMM      MMMMMMMMMMMM.MMMMMMMMMMMM     MMMMMMM           MMMMMM
+      MMMMMMM       .MMMMMMMMMMMMMMMMMMMM.       MMMMMMM       MMMMMMMMMMMMMM
+      MMMMMMM         MMMMMMMMMMMMMMMMMM         MMMMMMM     MMMMMMMMMMMMMMMMMM
+      MMMMMMM           .MMMMMMMMMMMM.           MMMMMMM     MMMMMMMMMMMMMMMMMM
+      MMMMMMM             .MMMMMMMM.             MMMMMMM     MMMMMMMMMMMMMMMMMM
+      MMMMMMM               .MMMM.               MMMMMMM     MMMMMMMMMMMMMMMMMM
+      MMMMMMM                 MM                 MMMMMMM       MMMMMMMMMMMMMM
+      MMMMMMM                                    MMMMMMM           MMMMMM
+
+      |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|.
+
+      -------------------------------------------------------------------------
+      |    INTERNET COMPANY | LICENCE TO INTERNETS     ||       CLICK ON      |
+      |             ** IN GIF WE TRUST **              ||     G _ R A G _ !   |
+      -------------------------------------------------------------------------
+
+      |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|. |♥︎|.
+
+      dev?designer?internet? > console ♥︎
+      -->
