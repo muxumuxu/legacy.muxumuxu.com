@@ -173,28 +173,28 @@ en:
       items:
         inch:
           title: Inch
-        streamquest:
-          title: StreamQuest
-        quorum:
-          title: Quorum
+        reech:
+          title: Reech
+        backtracks:
+          title: Backtracks
         lattice:
           title: Lattice
         wanted:
           title: Wanted
         sodif:
           title: sodif
+        streamquest:
+          title: StreamQuest
         colombers:
           title: Colombers
-        reech:
-          title: Reech
+        quorum:
+          title: Quorum
         trace:
           title: Trace
         robinfinance:
           title: Robin'Finance
         clicboutic:
           title: clicboutic
-        hemera:
-          title: hemera
     team:
       title: Our team of passionates
       items:

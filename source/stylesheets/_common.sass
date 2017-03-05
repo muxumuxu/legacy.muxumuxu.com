@@ -160,13 +160,12 @@ header
       margin-top: 0
 
   .references
-    img
-      width: 100%
+    .logo-bar
       margin: 100px 0 20px
-    .clients-desktop
-      display: block
-    .clients-mobile
-      display: none
+      align-items: center
+      display: flex
+      justify-content: space-between
+      margin-bottom: 0
     .columns
       display: flex
       flex-direction: row
@@ -624,20 +623,14 @@ footer
         margin-top: 65px
 
     .highlighted-projects
-      display: block
       .project
         margin-bottom: 40px
-        display: block
+        width: 30%
         img
           width: 100%
           height: auto
 
     .references
-      .clients-desktop
-        display: none
-      .clients-mobile
-        display: block
-        margin-bottom: 60px
       .columns
         display: block
 
@@ -700,3 +693,29 @@ footer
     display: block
     h3
       margin-top: 60px
+
+@media screen and (max-width: 840px)
+  .wrapper
+    .references
+      .logo-bar
+        img
+          &.hide-tablet
+            display: none
+
+
+@media screen and (max-width: 540px)
+  .wrapper
+    .highlighted-projects
+      display: block
+      .project
+        margin-bottom: 40px
+        display: block
+        width: 100%
+        img
+          width: 100%
+          height: auto
+    .references
+      .logo-bar
+        img
+          &.hide-mobile
+            display: none
