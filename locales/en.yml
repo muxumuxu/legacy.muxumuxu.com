@@ -26,28 +26,6 @@ en:
     delivery: Delivery
     visit: Visit
     list:
-      streamquest-identity:
-        title: StreamQuest
-        type: Branding
-        case-study:
-          title: StreamQuest Identity
-          client: StreamQuest
-          delivery: Branding
-          description: |
-            StreamQuest creates interactions on live video streams, helping viewers to challenge gamers via rewarded bets and quests.
-          quote: |
-            We designed their whole brand identity and helped them to understand how to display each element, such as their logo on videos. We helped them properly show the challenges published by viewers during live sessions.
-      wanted-identity:
-        title: Wanted
-        type: Branding
-        case-study:
-          title: Wanted Identity
-          client: Wanted
-          delivery: Branding
-          description: |
-            Wanted is a Facebook community spread across different cities, both within France and abroad. Wanted aims to cater to the needs and interests of everyone involved.
-          quote: |
-            We designed the Wanted brand identity, which had to be adapted to Facebook guidelines because communities are considered as private groups on Facebook.
       trace-radio-app:
         title: TRACE Radio
         type: App design & development
@@ -61,6 +39,29 @@ en:
             We’ve led the conception of Trace’s new iOS and Android applications, in line with Apple and Android guidelines. The application comprises many territories, each of them with their own radio streams.<br><br>TRACE joined the team as partner, so that we could fully understand their business. From day one, we used interactive prototypes.
           conclusion: |
             We delivered these applications with a back-office for desktop and mobile, so that TRACE can autonomously manage, publish and edit territories and radios: anywhere and anytime.
+      streamquest-identity:
+        title: StreamQuest
+        type: Branding
+        case-study:
+          title: StreamQuest Identity
+          client: StreamQuest
+          delivery: Branding
+          description: |
+            StreamQuest creates interactions on live video streams, helping viewers to challenge gamers via rewarded bets and quests.
+          quote: |
+            We designed their whole brand identity and helped them to understand how to display each element, such as their logo on videos. We helped them properly show the challenges published by viewers during live sessions.
+      lattice-landing:
+        title: Lattice
+        type: Website design
+        case-study:
+          title: Performance Management Employees Love
+          client: Lattice
+          delivery: Website design
+          visit: <a href="https://www.latticehq.com/">latticehq.com →</a>
+          description: |
+            Lattice is a San Fransisco based company which mission is to create a world where transparency is the norm -- where employees feel valued, know exactly what they need to be working on and how they can make an impact.
+          quote: |
+            We've been working with the amazing team at Lattice to completely rethink and redesign their web experience. Huge props to <a href="https://twitter.com/@Kracov" target="_blank">@AlexKracov</a>, <a href="https://twitter.com/@erondu" target="_blank">@JaredErondu</a> & <a href="https://twitter.com/@mcsheffrey" target="_blank">@ConnorJames</a> for the teamwork!
       reech-landing:
         title: Reech
         type: Website design
@@ -73,6 +74,17 @@ en:
             Reech is an agency specialized in influence marketing, and connects brands with opinion leaders.
           quote: |
             We created a set of illustrations to help them distinguish themselves from their competitors. We also completely redesigned their website.<br><br>With our help, their website has attracted more leads and Reech has significantly increased their number of demos.
+      wanted-identity:
+        title: Wanted
+        type: Branding
+        case-study:
+          title: Wanted Identity
+          client: Wanted
+          delivery: Branding
+          description: |
+            Wanted is a Facebook community spread across different cities, both within France and abroad. Wanted aims to cater to the needs and interests of everyone involved.
+          quote: |
+            We designed the Wanted brand identity, which had to be adapted to Facebook guidelines because communities are considered as private groups on Facebook.
     more: Take a closer look at our work →
 
   work:

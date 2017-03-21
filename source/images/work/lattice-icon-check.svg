@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="check_in-product-icon" width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <style>
+      #check_in-product-icon:hover #check {
+        animation: 4s check ease-in forwards;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        transform-origin: center center;
+      }
+
+      @keyframes check {
+        0% {
+          transform: scale(0.2);
+          stroke-dashoffset: 1000;
+        }
+        6% {
+          transform: scale(1.5);
+        }
+        8% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1);
+          stroke-dashoffset: 0;
+        }
+      }
+    </style>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="72" height="72" rx="36"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check-in">
+            <g id="icon" transform="translate(14.000000, 14.000000)">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use fill="#FEFBF2" xlink:href="#path-1"></use>
+                    <path d="M4,55.245371 C2.17107503,53.7792499 1,51.5263846 1,49 C1,44.581722 4.581722,41 9,41 C13.418278,41 17,44.581722 17,49 L19,54 L17,55 L17,59 L13,60 L13,63 L4,62 L4,55.245371 Z" id="bg" fill="#FEE8B6" mask="url(#mask-2)"></path>
+                    <path d="M56,49 C56,44.581722 59.581722,41 64,41 C68.418278,41 72,44.581722 72,49 C72,51.5263846 70.828925,53.7792499 69,55.245371 L69,62 L60,63 L60,60 L56,59 L56,55 L54,54 L56,49 Z" id="face" fill="#FED780" mask="url(#mask-2)"></path>
+                    <path d="M19,46.375 C19,46.375 29,42.0695801 29,32 C29,26.4771525 24.5228475,22 19,22 C13.4771525,22 9,26.4771525 9,32 C9,37.2628029 13.8382834,41.5760662 19,41.9705804 C19.2550497,41.9900741 19,46.375 19,46.375 Z" id="bg" fill="#FEE8B6" mask="url(#mask-2)"></path>
+                    <g id="bubble" mask="url(#mask-2)">
+                        <g transform="translate(20.000000, 17.000000)">
+                            <path d="M16,39 C16,39 32,32.1113281 32,16 C32,7.163444 24.836556,-3.55271368e-15 16,-3.55271368e-15 C7.163444,-3.55271368e-15 0,7.163444 0,16 C0,24.4204847 7.74125341,31.3217059 16,31.9529287 C16.4080795,31.9841185 16,39 16,39 Z" id="bg" stroke="none" fill="#FFC74B" fill-rule="evenodd" transform="translate(16.000000, 19.500000) scale(-1, 1) translate(-16.000000, -19.500000) "></path>
+                            <polyline id="check" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" points="10 17 14 21 22 12"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

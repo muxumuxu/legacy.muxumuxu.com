@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="feedback-product-icon" width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <style>
+      #feedback-product-icon:hover .dot-scale {
+        animation: 1.8s dot-scale ease-in-out infinite;
+        transform-origin: center center;
+      }
+
+      @keyframes dot-scale {
+        0% {
+          transform: translateY(1px);
+        }
+
+        10% {
+          transform: translateY(0px);
+        }
+
+        80% {
+          transform: translateY(0) scale(1);
+        }
+
+        90% {
+          transform: translateY(-3px) scale(1.1);
+        }
+
+        100% {
+          transform: translateY(0) scale(1);
+        }
+      }
+
+      #feedback-product-icon:hover #dot-3.dot-scale {
+        animation-delay: -0.8s;
+      }
+
+      #feedback-product-icon:hover #dot-2.dot-scale {
+        animation-delay: -1.2s;
+      }
+
+      #feedback-product-icon:hover #dot-1.dot-scale {
+        animation-delay: -1.4s;
+      }
+
+    </style>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="72" height="72" rx="36"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="feedback">
+            <g id="icon" transform="translate(14.000000, 14.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use fill="#FDF0F0" xlink:href="#path-1"></use>
+                <path d="M4,55.245371 C2.17107503,53.7792499 1,51.5263846 1,49 C1,44.581722 4.581722,41 9,41 C13.418278,41 17,44.581722 17,49 L19,54 L17,55 L17,59 L13,60 L13,63 L4,62 L4,55.245371 L4,55.245371 Z" id="face" fill="#F7A0A3" mask="url(#mask-2)"></path>
+                <path d="M56,49 C56,44.581722 59.581722,41 64,41 C68.418278,41 72,44.581722 72,49 C72,51.5263846 70.828925,53.7792499 69,55.245371 L69,62 L60,63 L60,60 L56,59 L56,55 L54,54 L56,49 Z" id="face" fill="#FAD0D1" mask="url(#mask-2)"></path>
+                <g id="bubble-small"><path d="M53,46.375 C53,46.375 63,42.0695801 63,32 C63,26.4771525 58.5228475,22 53,22 C47.4771525,22 43,26.4771525 43,32 C43,37.2628029 47.8382834,41.5760662 53,41.9705804 C53.2550497,41.9900741 53,46.375 53,46.375 Z" fill="#FAD0D1" mask="url(#mask-2)" transform="translate(53.000000, 34.187500) scale(-1, 1) translate(-53.000000, -34.187500) "></path></g>
+                <g id="bubble-big" mask="url(#mask-2)">
+                    <g transform="translate(20.000000, 17.000000)">
+                        <path d="M16,37 C16,37 32,32.1113281 32,16 C32,7.163444 24.836556,-3.55271368e-15 16,-3.55271368e-15 C7.163444,-3.55271368e-15 0,7.163444 0,16 C0,24.4204847 7.74125341,31.3217059 16,31.9529287 C16.4080795,31.9841185 16,37 16,37 Z" id="bg" fill="#F46B70"></path>
+                        <circle id="dot-1" class="dot-scale" fill="#FDF0F0" cx="10.5" cy="16.5" r="1.5"></circle>
+                        <circle id="dot-2" class="dot-scale" fill="#FDF0F0" cx="16.5" cy="16.5" r="1.5"></circle>
+                        <circle id="dot-3" class="dot-scale" fill="#FDF0F0" cx="22.5" cy="16.5" r="1.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

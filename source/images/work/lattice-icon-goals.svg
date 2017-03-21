@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="goals-product-icon" width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+      #goals-product-icon:hover #arrow {
+        animation: .5s arrow-in linear forwards;
+        transform-origin: left bottom;
+      }
+
+      @keyframes arrow-in {
+        0% {
+          transform: translateX(1000%) translateY(-1000%) scale(2);
+        }
+        90% {
+          transform: translateX(0%) translateY(0%) scale(1);
+        }
+        92% {
+          transform: translateX(0%) translateY(0%) scale(1) rotate(20deg);
+        }
+        100% {
+          transform: translateX(0%) translateY(0%) scale(1) rotate(0deg);
+        }
+      }
+    </style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="goals">
+            <g id="icon" transform="translate(14.000000, 14.000000)">
+                <rect fill="#EBFAF3" x="0" y="0" width="72" height="72" rx="36"></rect>
+                <path d="M16,36 C16,24.954305 24.9518764,16 36,16 C47.045695,16 56,24.9518764 56,36 C56,47.045695 47.0481236,56 36,56 C24.954305,56 16,47.0481236 16,36 Z M21,36 C21,44.2860927 27.7157288,51 36,51 C44.2860927,51 51,44.2842712 51,36 C51,27.7139073 44.2842712,21 36,21 C27.7139073,21 21,27.7157288 21,36 Z" id="goal" fill-opacity="0.400000006" fill="#3ECF8E" opacity="0.700000048"></path>
+                <path d="M26,36 C26,30.4771525 30.4759382,26 36,26 C41.5228475,26 46,30.4759382 46,36 C46,41.5228475 41.5240618,46 36,46 C30.4771525,46 26,41.5240618 26,36 Z M30,36 C30,39.3069658 32.6862915,42 36,42 C39.3069658,42 42,39.3137085 42,36 C42,32.6930342 39.3137085,30 36,30 C32.6930342,30 30,32.6862915 30,36 Z" id="goal" fill-opacity="0.400000006" fill="#3ECF8E" opacity="0.700000048"></path>
+                <rect id="goal" fill-opacity="0.400000006" fill="#3ECF8E" opacity="0.700000048" x="33" y="33" width="6" height="6" rx="3"></rect>
+                <g id="arrow">
+                  <g transform="translate(36.000000, 15.000000)">
+                      <path d="M7,3.00002024 C7,0.790870063 8.26596401,0.265964014 9.82138526,1.82138526 L19.1786147,11.1786147 C20.7368228,12.7368228 20.2055487,14 17.9999798,14 L7,14 L7,3.00002024 Z" fill="#91E1B7"></path>
+                      <path d="M0,21 L15,6" stroke="#3ECF8E" stroke-width="3" stroke-linecap="round"></path>
+                  </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

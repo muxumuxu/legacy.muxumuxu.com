@@ -383,6 +383,19 @@ header
       margin: 100px 0 0
     p
       max-width: 640px
+      a
+        color: $color-text
+        text-decoration: none
+        border-bottom: 1px solid #ededed
+        &:hover
+          border-bottom: 1px solid $color-link
+    .lattice-icons
+      display: flex
+      margin: 100px 0 0
+      svg
+        cursor: pointer
+        flex: auto
+        transform: scale(1.5)
 
   .btw
     margin: 160px 0 20px
@@ -427,6 +440,10 @@ header
   &.reech-landing
     img
       width: 2580px
+      margin: 0
+  &.lattice-landing
+    img
+      width: 2560px
       margin: 0
 
 .contact-us
@@ -676,7 +693,15 @@ footer
             padding: 0
       img
         width: 100%
-
+      .lattice-icons
+        display: block
+        margin: 100px 0 0
+        svg
+          cursor: pointer
+          flex: auto
+          display: block
+          margin: 0 auto
+          transform: scale(1)
   .contact-us
     font-size: 24px
     width: 100%
