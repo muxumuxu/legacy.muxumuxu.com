@@ -1,6 +1,13 @@
 .wrapper
+
+  .video-overlay
+    span.close
+    = partial "shared/video"
+
   .hero
     h1 = t 'intro.title'
+    span.play-button
+      = t 'intro.play'
     = partial 'images/home-illustration.svg'
 
   .highlighted-projects

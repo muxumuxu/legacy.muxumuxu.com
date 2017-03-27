@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-230.000000, -472.000000)" id="hero">
+            <g transform="translate(230.000000, 260.000000)">
+                <g id="player" transform="translate(0.000000, 212.000000)">
+                    <g id="play">
+                        <circle id="bg" fill="#33CC33" cx="16" cy="16" r="16"></circle>
+                        <polygon id="bg" fill="#FFFFFF" points="23 16 12 22 12 10"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
