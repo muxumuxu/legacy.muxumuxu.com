@@ -236,6 +236,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      abstract-and-the-design-workflow-revolution:
+        title: |
+          Abstract, and the design workflow revolution
+        description: |
+          It’s a familiar scenario for any designer: file-conflict fiascos, Dropbox disarray and a veritable minefield of modifications with no clue has to who has changed what, nor why.
+        source: Medium
+        link: https://medium.com/muxu-muxu/abstract-and-the-design-workflow-revolution-eec3ef71afc3
       welcome-to-the-Muxu-Muxu-tribe:
         title: |
           Welcome to the Muxu.Muxu tribe
