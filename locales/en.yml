@@ -236,6 +236,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      three-months-in:
+        title: |
+          Three months in, and we’ve started as we mean to go on
+        description: |
+          Here at creative studio Muxu.Muxu, the last three months have flashed by in a whirlwind — a happy, energizing rollercoaster ride of stimulating fresh collaborations and exciting meetings with new clients.
+        source: Medium
+        link: https://medium.com/muxu-muxu/three-months-in-and-weve-started-as-we-mean-to-go-on-449275b48a3e
       abstract-and-the-design-workflow-revolution:
         title: |
           Abstract, and the design workflow revolution
