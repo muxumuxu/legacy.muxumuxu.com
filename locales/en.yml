@@ -26,6 +26,7 @@ en:
     client: Client
     delivery: Delivery
     visit: Visit
+    download: Download
     list:
       trace-radio-app:
         title: TRACE Radio
@@ -34,6 +35,8 @@ en:
           title: TRACE Radio
           client: TRACE
           delivery: Design, development iOS & Android
+          visit: |
+            For <a href="https://itun.es/i67n4D5" target="_blank">iOS</a> or <a href="https://play.google.com/store/apps/details?id=com.trace.TraceFM" target="_blank">Android</a>
           description: |
             TRACE is a French media platform devoted to urban contemporary music. It’s the third most widely streamed French channel globally, and the first in terms of listeners in Africa.
           quote: |
@@ -58,7 +61,7 @@ en:
           title: Performance Management Employees Love
           client: Lattice
           delivery: Website design
-          visit: <a href="https://www.latticehq.com/">latticehq.com →</a>
+          visit: <a href="https://www.latticehq.com/" target="_blank">latticehq.com →</a>
           description: |
             Lattice is a San Fransisco based company which mission is to create a world where transparency is the norm -- where employees feel valued, know exactly what they need to be working on and how they can make an impact.
           quote: |
@@ -70,7 +73,7 @@ en:
           title: Reech.com
           client: Reech
           delivery: Website design
-          visit: <a href="https://www.reech.com/">reech.com →</a>
+          visit: <a href="https://www.reech.com/" target="_blank">reech.com →</a>
           description: |
             Reech is an agency specialized in influence marketing, and connects brands with opinion leaders.
           quote: |
