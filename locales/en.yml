@@ -240,6 +240,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      our-value:
+        title: |
+          Muxu.Values
+        description: |
+          Our values guide every aspect of how we run Muxu.Muxu
+        source: Medium
+        link: https://medium.com/muxu-muxu/muxu-values-ecac13972136
       three-months-in:
         title: |
           Three months in, and we’ve started as we mean to go on
