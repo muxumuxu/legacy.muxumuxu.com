@@ -13,7 +13,7 @@
           li
             = link_to item[:url], target: "_blank"
               = item[:title]
-  
+
   .clients.content-list
     h2 = t 'about.clients.title'
     ul.list-container
@@ -36,7 +36,22 @@
       li.list-item
       li.list-item
 
-.slider.office  
+    .team.content-list
+      h2 = t 'about.friends.title'
+      ul.list-container
+        - t('about.friends.items').each do |id, item|
+          li.list-item.friends
+            .picture
+              .emoji
+                = image_tag "friends/#{id}-emoji.png"
+              .gif class="#{id}"
+              = image_tag "friends/#{id}.jpg"
+            h3 = item[:name]
+            p = item[:title]
+        li.list-item
+        li.list-item
+
+.slider.office
   div data-fluffy-container=""
-    div data-fluffy-content="" 
+    div data-fluffy-content=""
       = image_tag "bordeaux-office-preview.jpg"

@@ -158,6 +158,7 @@ en:
         <p>Over the past 8 years, we’ve helped tiny web startups and established companies alike, to build experiences that are simple, beautiful, and easy to use.</p>
         <p>At the heart of Muxu.Muxu is a team of passionate makers. We engage and contribute at every stage: from product design, prototyping and branding right through to development.</p>
         <p>We’re not here to sell: we’re here to share through experiences. We lay the foundations for sustainable future growth.</p>
+        <p><a href="https://medium.com/muxu-muxu/muxu-values-ecac13972136" targe="_blank" class="link">Read more about our values on Medium →</a></p>
     press:
       title: Selected Press & Mentions
       items:
@@ -196,14 +197,14 @@ en:
           title: Backtracks
         lattice:
           title: Lattice
+        readme:
+          title: ReadMe
         wanted:
           title: Wanted
         sodif:
           title: sodif
         streamquest:
           title: StreamQuest
-        colombers:
-          title: Colombers
         quorum:
           title: Quorum
         trace:
@@ -221,19 +222,37 @@ en:
         luc:
           name: Luc
           title: Designer
+        jimmy:
+          name: Jimmy
+          title: Android Developer
         damien:
           name: Damien
           title: Designer
         #david:
           #name: David
           #title: iOS Advisor
+        ben:
+          name: Ben
+          title: Motion Designer
         pierre:
           name: Pierre
           title: Product Advisor
-        jimmy:
-          name: Jimmy
-          title: Android Developer
 
+    friends:
+      title: Muxu.Muxu beloved friends
+      items:
+        victor:
+          name: Victor
+          title: Software Engineer
+        elsa:
+          name: Elsa
+          title: Internet Happiness Lead
+        arnaud:
+          name: Arnaud
+          title: Developer
+        emily:
+          name: emily
+          title: Queen of the Software
 
 
   blog:

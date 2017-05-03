@@ -320,7 +320,7 @@ header
     h1
       max-width: 820px
       margin-bottom: 90px
-    .list-item.team
+    .list-item.team, .list-item.friends
       .picture
         width: 220px
         height: 220px
@@ -343,6 +343,8 @@ header
           background-image: linear-gradient(-180deg, rgba(98,232,98,0.8) 0%, rgba(50,204,50,0.7) 100%)
         .gif
           background-size: cover
+          background-repeat: no-repeat
+          background-position: center center
           width: 220px
           opacity: 0
           transition: .3s opacity linear
@@ -351,18 +353,28 @@ header
           top: 0
           left: 0
           z-index: 10
+          &.emily
+            background-image: url(https://media3.giphy.com/media/l2JhL6uaJY7WzPbMs/giphy.gif)
+          &.elsa
+            background-image: url(https://media1.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+          &.ben
+            background-image: url(https://media0.giphy.com/media/l6mBchxYZc7Sw/giphy.gif)
+          &.arnaud
+            background-image: url(https://media0.giphy.com/media/l3q2XhfQ8oCkm1Ts4/giphy.gif)
+          &.victor
+            background-image: url(https://media.giphy.com/media/OcZp0maz6ALok/giphy.gif)
           &.audrey
-            background: url(https://media.giphy.com/media/ChpOyeacGmpQk/giphy.gif) no-repeat center center
+            background-image: url(https://media.giphy.com/media/ChpOyeacGmpQk/giphy.gif)
           &.luc
-            background: url(https://media.giphy.com/media/3oz8xQQP4ahKiyuxHy/giphy.gif) no-repeat center center
+            background-image: url(https://media.giphy.com/media/3oz8xQQP4ahKiyuxHy/giphy.gif)
           &.damien
-            background: url(https://media.giphy.com/media/wT71Ce9oKBQGc/giphy.gif) no-repeat center center
+            background-image: url(https://media.giphy.com/media/wT71Ce9oKBQGc/giphy.gif)
           &.david
-            background: url(https://media.giphy.com/media/5xaOcLID2IVXuexm79m/giphy.gif) no-repeat center center
+            background-image: url(https://media.giphy.com/media/5xaOcLID2IVXuexm79m/giphy.gif)
           &.pierre
-            background: url(https://media.giphy.com/media/l2JJDEJr3iLHiPEyY/giphy.gif) no-repeat center center
+            background-image: url(https://media.giphy.com/media/l2JJDEJr3iLHiPEyY/giphy.gif)
           &.jimmy
-            background: url(https://media.giphy.com/media/l3vR8AXp51C0EIO0o/giphy.gif) no-repeat center center
+            background-image: url(https://media.giphy.com/media/l3vR8AXp51C0EIO0o/giphy.gif)
 
         img
           position: absolute
