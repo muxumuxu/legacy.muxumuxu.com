@@ -243,16 +243,19 @@ en:
       items:
         victor:
           name: Victor
-          title: Software Engineer
+          title: Developer
         elsa:
           name: Elsa
-          title: Internet Happiness Lead
+          title: Internet Happiness
         arnaud:
           name: Arnaud
           title: Developer
         emily:
-          name: emily
-          title: Queen of the Software
+          name: Emily
+          title: Developer
+        edouard:
+          name: Edouard
+          title: Mobile Apps Marketing
 
 
   blog:
