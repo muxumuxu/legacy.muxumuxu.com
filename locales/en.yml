@@ -141,6 +141,10 @@ en:
           title: Koala
           type: Health
           link: http://koala.coach/
+        hedwig:
+          title: Hedwig
+          type: Productivity
+          link: http://hedwig-app.com
     partnerships:
       title: What we do in a partnership
       description: |
