@@ -129,10 +129,6 @@ en:
           title: Papier
           type: Productivity
           link: http://getpapier.com/
-        bordeaux-stickers:
-          title: Bordeaux Stickers
-          type: Stickers
-          link: https://itunes.apple.com/fr/app/bordeaux-gave-de-stickers/id1156223637?mt=8
         koala:
           title: Koala
           type: Health
@@ -141,6 +137,10 @@ en:
           title: Hedwig
           type: Productivity
           link: http://hedwig-app.com
+        bordeaux-stickers:
+          title: Bordeaux Stickers
+          type: Stickers
+          link: https://itunes.apple.com/fr/app/bordeaux-gave-de-stickers/id1156223637?mt=8
     partnerships:
       title: What we do in a partnership
       description: |
