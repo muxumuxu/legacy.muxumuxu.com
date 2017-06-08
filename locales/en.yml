@@ -265,6 +265,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      financial-figures-june-2017:
+        title: |
+          Muxu.Muxu’s first financial figures
+        description: |
+          In an ongoing effort to encourage transparency, within the team and indeed across the industry as a whole, we’ve decided to start a series of articles on our financial results.
+        source: Medium
+        link: https://medium.com/muxu-muxu/muxu-muxus-first-financial-figures-df146bf8bc2b
       our-value:
         title: |
           Muxu.Values
