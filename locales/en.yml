@@ -221,7 +221,7 @@ en:
       items:
         audrey:
           name: Audrey
-          title: Web Developer
+          title: Developer
         luc:
           name: Luc
           title: Designer
@@ -231,9 +231,9 @@ en:
         damien:
           name: Damien
           title: Designer
-        #david:
-          #name: David
-          #title: iOS Advisor
+        david:
+          name: David
+          title: Developer
         ben:
           name: Ben
           title: Motion Designer
