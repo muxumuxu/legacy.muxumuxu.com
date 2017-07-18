@@ -125,6 +125,18 @@ en:
             Backtracks is the world's most advanced podcast analytics platform.
           quote: |
             We created several illustrations, icons, and completely redesigned their website.
+      quorum-landing:
+        title: Quorum
+        type: Website design
+        case-study:
+          title: Quorum.co
+          client: Quorum
+          delivery: Website design
+          visit: <a href="https://www.quorum.co/" target="_blank">quorum.co →</a>
+          description: |
+            Quorum is the campaigning app for grassroots campaigns of the 21st century. Efficient, digital and people-centered.
+          quote: |
+            We created several illustrations, icons, and completely redesigned their website.
     more: Take a closer look at our work →
 
   work:
