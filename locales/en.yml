@@ -122,9 +122,9 @@ en:
       title: Portfolio
       projects:
         foodancy:
-          title: Foodancy
+          title: Cocotte
           type: Health
-          link: http://foodancy.com/
+          link: https://cocotte-app.com/
         papier:
           title: Papier
           type: Productivity
