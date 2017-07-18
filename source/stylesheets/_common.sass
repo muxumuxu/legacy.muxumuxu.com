@@ -211,6 +211,7 @@ header
       display: flex
       justify-content: space-between
       margin-bottom: 0
+      flex-wrap: wrap
     .columns
       display: flex
       flex-direction: row
@@ -782,9 +783,9 @@ footer
   .wrapper
     .references
       .logo-bar
+        justify-content: flex-start
         img
-          &.hide-tablet
-            display: none
+          margin: 5px
 
 
 @media screen and (max-width: 540px)
@@ -798,8 +799,3 @@ footer
         img
           width: 100%
           height: auto
-    .references
-      .logo-bar
-        img
-          &.hide-mobile
-            display: none
