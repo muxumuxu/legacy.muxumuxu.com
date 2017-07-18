@@ -58,7 +58,7 @@ en:
         title: Lattice
         type: Website design
         case-study:
-          title: Performance Management Employees Love
+          title: Lattice.com
           client: Lattice
           delivery: Website design
           visit: <a href="https://www.latticehq.com/" target="_blank">latticehq.com →</a>
@@ -89,6 +89,18 @@ en:
             Wanted is a Facebook community spread across different cities, both within France and abroad. Wanted aims to cater to the needs and interests of everyone involved.
           quote: |
             We designed the Wanted brand identity, which had to be adapted to Facebook guidelines because communities are considered as private groups on Facebook.
+      readme-landing:
+        title: ReadMe
+        type: Website design
+        case-study:
+          title: Readme.io
+          client: ReadMe
+          delivery: Website design
+          visit: <a href="https://www.readme.io/" target="_blank">readme.io →</a>
+          description: |
+            ReadMe is a platform that helps create beautiful product and API documentation.
+          quote: |
+            We created several illustrations, icons, and completely redesigned their website.
       inch-landing:
         title: Inch
         type: Website design
