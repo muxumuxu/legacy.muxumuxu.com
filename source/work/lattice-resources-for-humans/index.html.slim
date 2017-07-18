@@ -1,0 +1,38 @@
+.wrapper.case-study
+  .hero-case-study
+    h1 = t 'projects.list.lattice-resources-for-humans.case-study.title'
+    ul.resume
+      li
+        h2 = t 'projects.client'
+        p = t 'projects.list.lattice-resources-for-humans.case-study.client'
+      li
+        h2 = t 'projects.delivery'    
+        p = t 'projects.list.lattice-resources-for-humans.case-study.delivery'
+      li
+        h2 = t 'projects.visit'
+        p = t 'projects.list.lattice-resources-for-humans.case-study.visit'
+
+  p = t 'projects.list.lattice-resources-for-humans.case-study.description'
+
+.slider.lattice-landing  
+  div data-fluffy-container=""
+    div data-fluffy-content="" 
+      = image_tag "work/lattice-resources-for-humans-preview.jpg"
+
+.wrapper.case-study
+
+  p = t 'projects.list.lattice-resources-for-humans.case-study.quote'
+  
+  = image_tag "work/lattice-resources-for-humans-feature-page.jpg"
+
+.wrapper.work
+  .projects.related
+    h2.related = t 'work.related'
+    = link_to "../lattice-landing", class: "project"
+      = image_tag "work/lattice-landing.jpg"
+      h2 = t 'projects.list.lattice-landing.title'
+      p = t 'projects.list.lattice-landing.type'
+    = link_to "../readme-landing", class: "project"
+      = image_tag "work/readme-landing.jpg"
+      h2 = t 'projects.list.readme-landing.title'
+      p = t 'projects.list.readme-landing.type'
