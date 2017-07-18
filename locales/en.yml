@@ -89,13 +89,25 @@ en:
             Wanted is a Facebook community spread across different cities, both within France and abroad. Wanted aims to cater to the needs and interests of everyone involved.
           quote: |
             We designed the Wanted brand identity, which had to be adapted to Facebook guidelines because communities are considered as private groups on Facebook.
+      inch-landing:
+        title: Inch
+        type: Website design
+        case-study:
+          title: Inch.fr
+          client: Inch
+          delivery: Website design
+          visit: <a href="https://www.inch.fr/" target="_blank">inch.fr →</a>
+          description: |
+            Inch is a platform that helps estate agencies and tenents to better communicate about specific issues related to rentals.
+          quote: |
+            We created several illustrations, icons, and completely redesigned their website and associated blog.
     more: Take a closer look at our work →
 
   work:
     title: |
       We work with startups and companies we believe in.
     related: |
-      Related project we’ve loved to make.
+      Related projects we’ve loved to make.
 
   services:
     intro: Code-based. Design-obsessed. Future-forward.
@@ -128,15 +140,15 @@ en:
         papier:
           title: Papier
           type: Productivity
-          link: http://getpapier.com/
+          link: https://getpapier.com/
         koala:
           title: Koala
           type: Health
-          link: http://koala.coach/
+          link: https://koala.coach/
         hedwig:
           title: Hedwig
           type: Productivity
-          link: http://hedwig-app.com
+          link: https://hedwig-app.com
         bordeaux-stickers:
           title: Bordeaux Stickers
           type: Stickers
