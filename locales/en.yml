@@ -296,14 +296,14 @@ en:
         luc:
           name: Luc
           title: Designer
-        jimmy:
-          name: Jimmy
-          title: Android Developer
+        david:
+          name: David
+          title: Developer
         damien:
           name: Damien
           title: Designer
-        david:
-          name: David
+        jimmy:
+          name: Jimmy
           title: Developer
         ben:
           name: Ben
