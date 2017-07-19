@@ -115,11 +115,11 @@ en:
             We've been working with this ambitious parisian team for the past year on different topics such as marketing (by building specific landing pages), their blog (with illustrations), and their platform (designing interfaces).
       backtracks-landing:
         title: Backtracks
-        type: Website design
+        type: Website design & development
         case-study:
           title: Backtracks.io
           client: Backtracks
-          delivery: Website design
+          delivery: Website design & development
           visit: <a href="https://www.backtracks.io/" target="_blank">backtracks.io →</a>
           description: |
             Backtracks is the world's most advanced podcast analytics platform, used by companies such as Berkeley and Indie Hackers. This team of passionates, previously working for NASA, is based in Austin.
@@ -127,7 +127,7 @@ en:
             We helped Backtracks showcase their wonderful platform to the world through illustrations and a new website.
       quorum-landing:
         title: Quorum
-        type: Website design
+        type: Website design & development
         case-study:
           title: Quorum.co
           client: Quorum
