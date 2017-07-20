@@ -149,7 +149,7 @@ en:
           quote: |
             We built a brand identity that reflects their ambitions.
       lattice-resources-for-humans:
-        title: Lattice Resources For Humans
+        title: Lattice
         type: Branding
         case-study:
           title: Lattice Resources For Humans
@@ -171,6 +171,18 @@ en:
             Echoes Of House
           quote: |
             Echoes Of House
+      clicboutic-payments-landing:
+        title: Clicboutic
+        type: Website design & development
+        case-study:
+          title: Clicboutic-payments.com
+          client: Clicboutic
+          delivery: Website design & development
+          visit: <a href="https://www.clicboutic-payments.com/" target="_blank">clicboutic.com →</a>
+          description: |
+            Clicboutic Payments
+          quote: |
+            Clicboutic Payments
     more: Take a closer look at our work →
 
   work:
