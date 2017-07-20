@@ -80,11 +80,12 @@ en:
             We created a set of illustrations to help them distinguish themselves from their competitors. We also completely redesigned their website.<br><br>With our help, their website has attracted more leads and Reech has significantly increased their number of demos.
       wanted-identity:
         title: Wanted
-        type: Branding
+        type: Branding, website design & development
         case-study:
           title: Wanted Identity
           client: Wanted
-          delivery: Branding
+          delivery: Branding, website design & development
+          visit: <a href="https://wanted.community/" target="_blank">wanted.community →</a>
           description: |
             Wanted is a Facebook community spread across different cities, both within France and abroad. Wanted aims to cater to the needs and interests of everyone involved.
           quote: |
@@ -178,7 +179,7 @@ en:
           title: Clicboutic-payments.com
           client: Clicboutic
           delivery: Website design & development
-          visit: <a href="https://www.clicboutic-payments.com/" target="_blank">clicboutic.com →</a>
+          visit: <a href="https://www.clicboutic-payments.com/" target="_blank">clicboutic-payments.com →</a>
           description: |
             Clicboutic Payments
           quote: |
