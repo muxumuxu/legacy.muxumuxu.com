@@ -149,6 +149,19 @@ en:
             MiraEx makes predictive products to protect the industrial world. They can save lives by anticipating, for example, an engine failure on a plane. This team is based in EPFL, Ecole Polytechnique Fédérale de Lausanne, in Switzerland.
           quote: |
             We built a brand identity that reflects their ambitions.
+      hedwig-app:
+        title: Hedwig
+        type: App design & development
+        case-study:
+          title: Hedwig
+          client: Internal project
+          delivery: Design & iOS development
+          visit: |
+            For <a href="https://itun.es/i67n4D5" target="_blank">iOS</a>
+          description: |
+            Hedwig
+          quote: |
+            Hedwig
       lattice-resources-for-humans:
         title: Lattice
         type: Branding
