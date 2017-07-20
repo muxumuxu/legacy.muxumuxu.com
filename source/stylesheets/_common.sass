@@ -447,6 +447,11 @@ header
         border-bottom: 1px solid #ededed
         &:hover
           border-bottom: 1px solid $color-link
+    .animations
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      margin: 100px 0 0
     .lattice-icons
       display: flex
       margin: 100px 0 0
@@ -742,6 +747,8 @@ footer
           padding: 0
 
     &.case-study
+      .animations
+        flex-direction: column
       .hero-case-study
         h1
           margin-bottom: 50px
