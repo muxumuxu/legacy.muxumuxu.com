@@ -357,6 +357,9 @@ en:
         ben:
           name: Ben
           title: Motion Designer
+        elsa:
+          name: Elsa
+          title: Communications
         pierre:
           name: Pierre
           title: Product Advisor
@@ -367,9 +370,6 @@ en:
         victor:
           name: Victor
           title: Developer
-        elsa:
-          name: Elsa
-          title: Internet Happiness
         arnaud:
           name: Arnaud
           title: Developer
