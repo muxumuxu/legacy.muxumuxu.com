@@ -14,22 +14,11 @@ open http://localhost:4567
 ./deploy.sh
 ```
 
-## Renewing SSL certificate
+## SSL Deployment
 
-We use [letsencrypt](https://letsencrypt.org/) in order to verify our certificate.
-
-```
-brew install certbot
-certbot certonly --manual --force-renewal --config-dir ./letsencrypt --logs-dir . --work-dir . -d muxumuxu.com
-```
-
-1. Answer `Yes` when prompted that your IP will be saved.
-2. Next, `certbot` will ask you to make a file available at `http://muxumuxu.com/.well-known/acme-challenge/{prompted}` before continuing.
-Put this file under `source/.well-known/acme-challenge` of this folder.
-3. After that, you will have to concat generated `cert.pem` and `privkey.pem`, enter commands below to acheive that.
+[Here](https://guillaumemaka.com/2015/05/06/install-your-comodo-certificates-to-amazon-aws.html) A very useful resource
 
 ```
-cd letsencrypt/live/muxumuxu.com
-cat cert.pem privkey.pem > surge.pem
-surge ssl --domain muxumuxu.com --pem surge.pem
+cd ssls/comodo/pem
+surge ssl --pem ./CAChain.pem --domain https://muxumuxu.com
 ```
