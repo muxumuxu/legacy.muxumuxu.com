@@ -461,15 +461,23 @@ en:
       title: Fantastic perks and benefits
       items:
         insurance:
-          title: Great health insurance
-        massage:
-          title: Massage in the office
-        coffee:
-          title: Best coffee in town
+          title: Health insurance
+        rugby:
+          title: Free rugby match tickets
+        sleeping:
+          title: Sleeping room in the office
+        tampons:
+          title: Free tampons, pads and menstrual remote
+        books:
+          title: Unlimited book orders
+        classes:
+          title: Free online classes
         conferences:
-          title: Relevant conferences and courses
+          title: Relevant conferences
         food:
           title: Free breakfast and lunch
+        seminars:
+          title: Seminars in the countryside
         vhs:
           title: The Fifth Element VHS 📼
     positions:
