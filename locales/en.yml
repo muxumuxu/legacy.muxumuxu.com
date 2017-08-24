@@ -387,6 +387,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      agency-founders-interview:
+        title: |
+          Agency Founders
+        description: |
+          A series of interviews with the founders of independent + successful ad agencies and creative studios.
+        source: Float
+        link: https://www.float.com/agency-founders/luc-damien-audrey-david/
       financial-figures-june-2017:
         title: |
           Muxu.Muxu’s first financial figures
