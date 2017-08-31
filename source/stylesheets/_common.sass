@@ -274,10 +274,57 @@ header
       padding-bottom: 50px
       margin-bottom: 0
     img
-      position: absolute
-      right: 0
-      bottom: 0
-      width: 470px
+      &.illustration
+        position: absolute
+        right: 0
+        top: 210px
+        width: 470px
+    .content-list
+      h2
+        padding-top: 0
+      .list-container
+        margin-top: 50px
+        justify-content: flex-start
+        .list-item
+          max-width: 300px
+          margin: 0 26px 10px 0
+          &:nth-child(3n)
+            margin-right: 0
+          img
+            &.lattice
+              width: 121px
+              margin-bottom: 21px
+            &.inch
+              width: 94px
+              margin-bottom: 16px
+            &.sodif
+              width: 71px
+              margin-bottom: 19px
+            &.reech
+              width: 114px
+              margin-bottom: 20px
+            &.trace
+              width: 95px
+              margin-bottom: 18px
+            &.readme
+              width: 129px
+              margin-bottom: 16px
+            &.backtracks
+              width: 146px
+              margin-bottom: 10px
+            &.efounders
+              width: 48px
+              margin-bottom: 9px
+          h3
+            font-size: 14px
+            opacity: 0.5
+            font-weight: normal
+            margin: 0
+          p
+            font-size: 18px
+            line-height: 28px
+            margin-top: 5px
+            opacity: 1
 
   &.ventures
     h1
@@ -744,10 +791,19 @@ footer
           min-height: auto
 
     &.services
-      img
+      img.illustration
         position: relative
         width: 100%
+        top: 0
+        right: 0
         margin-top: 70px
+      .content-list
+        .list-container
+          .list-item
+            &:nth-child(1n)
+              margin-right: 20px
+            &:nth-child(2n)
+              margin-right: 0
 
     &.ventures
       .columns

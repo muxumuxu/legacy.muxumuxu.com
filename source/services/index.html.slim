@@ -4,4 +4,13 @@
   p = t 'services.about.description'
   = link_to "mailto:hello@muxumuxu.com", class: "link"
     = t 'services.about.more'
-  = image_tag "services-illustration.svg"
+  = image_tag "services-illustration.svg", class: "illustration"
+
+  .main-clients.content-list
+    h2 = t 'services.main-clients.title'
+    ul.list-container
+      - t('services.main-clients.list').each do |id, item|
+        li.list-item
+          = image_tag "clients/#{id}.png", class: "#{id}"
+          h3 = item[:work]
+          p = item[:description]

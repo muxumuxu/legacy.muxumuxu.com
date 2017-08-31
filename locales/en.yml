@@ -225,6 +225,45 @@ en:
         Making great products is why we get up in the morning. With an obsession for well-designed products and a relentless attention to detail, we will always put the product first.<br>
         <br>We turn sketches into a prototype as quickly as can be. Our aim is to spend less time fiddling with plans and specs, and more time producing. Our approach is experimental and collaborative. Above all, we iterate quickly for a short time to product launch.
       more: Get in touch →
+    main-clients:
+      title: |
+        We work with bold teams we believe in.
+      list:
+        lattice:
+          work: Design & Motion
+          description: |
+            Long-term design and development partnership with the company making health insurance simpler.
+        inch:
+          work: Design, Development & Motion
+          description: |
+            Long-term design and development partnership with the company making health insurance simpler.
+        sodif:
+          work: Design & Development
+          description: |
+            Redesigning the branding experience for the wholesaler established since 1968. Design and developmentof the website launching in 2017.
+        reech:
+          work: Design
+          description: |
+            Strategy, design, branding, and activation for a new, guest-friendly digital experience, launching in 2017.
+        trace:
+          work: Design & Development
+          description: |
+            Reimagining digital product experiences to strengthen relationships with next generation consumers.
+        readme:
+          work: Design
+          description: |
+            Research, product strategy, design, and iterative prototyping for new digital experiences.
+        backtracks:
+          work: Design & Development
+          description: |
+            xStrategy, design, branding, and activation for a new, guest-friendly digital experience, launching in 2017.
+        efounders:
+          work: Design
+          description: |
+            Strategy, design, branding, and activation for a new, guest-friendly digital experience, launching in 2017.
+    other-clients:
+      title: |
+        Along the way, we also worked with these great companies.
 
   ventures:
     intro: |
