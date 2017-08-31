@@ -440,6 +440,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      audrey-women-tech:
+        title: |
+          Passion, coding and women in tech
+        description: |
+          I recently caught up with Audrey, developer at creative studio Muxu.Muxu.
+        source: Medium
+        link: https://medium.com/muxu-muxu/interview-with-audrey-muxu-muxu-d8fbc2a9eb0
       agency-founders-interview:
         title: |
           Agency Founders
