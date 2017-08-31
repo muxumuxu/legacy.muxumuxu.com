@@ -16,10 +16,9 @@
 
   .clients.content-list
     h2 = t 'about.clients.title'
-    ul.list-container
+    ul.client-list
       - t('about.clients.items').each do |id, item|
-        li.list-item
-          = image_tag "clients/#{id}.png"
+        li = item[:title]
 
   .team.content-list
     h2 = t 'about.team.title'

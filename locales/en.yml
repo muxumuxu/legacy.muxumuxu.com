@@ -311,30 +311,44 @@ en:
     clients:
       title: Our beloved clients
       items:
+        lattice:
+          title: Lattice
         inch:
           title: Inch
+        sodif:
+          title: Sodif
         reech:
           title: Reech
         backtracks:
           title: Backtracks
-        lattice:
-          title: Lattice
         readme:
           title: ReadMe
-        wanted:
-          title: Wanted
-        sodif:
-          title: sodif
-        streamquest:
-          title: StreamQuest
-        quorum:
-          title: Quorum
         trace:
           title: Trace
-        robinfinance:
-          title: Robin'Finance
+        efounders:
+          title: eFounders
+        quorum:
+          title: Quorum
+        streamquest:
+          title: StreamQuest
         clicboutic:
-          title: clicboutic
+          title: Clicboutic
+        front:
+          title: Front App
+        wanted:
+          title: Wanted
+        robin:
+          title: Robin'Finance
+        miraex:
+          title: MiraEx
+        supporterlart:
+          title: Supporter l'Art
+        eoh:
+          title: Echoes of House
+        vpn:
+          title: VPN
+        wingr:
+          title: Wingr
     team:
       title: Our passionate team
       items:
