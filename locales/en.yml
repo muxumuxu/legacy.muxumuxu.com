@@ -264,6 +264,29 @@ en:
     other-clients:
       title: |
         Along the way, we also worked with these great companies.
+      list:
+        quorum:
+          title: Quorum
+        streamquest:
+          title: StreamQuest
+        clicboutic:
+          title: Clicboutic
+        front:
+          title: Front App
+        wanted:
+          title: Wanted
+        robin:
+          title: Robin'Finance
+        miraex:
+          title: MiraEx
+        supporterlart:
+          title: Supporter l'Art
+        eoh:
+          title: Echoes of House
+        vpn:
+          title: VPN
+        wingr:
+          title: Wingr
 
   ventures:
     intro: |

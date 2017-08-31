@@ -14,3 +14,9 @@
           = image_tag "clients/#{id}.png", class: "#{id}"
           h3 = item[:work]
           p = item[:description]
+          
+  .other-clients.content-list
+    h2 = t 'services.other-clients.title'
+    ul.client-list
+      - t('services.other-clients.list').each do |id, item|
+        li = item[:title]
