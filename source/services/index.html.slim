@@ -6,6 +6,7 @@
     = t 'services.about.more'
   = image_tag "services-illustration.svg", class: "illustration"
 
+            
   .main-clients.content-list
     h2 = t 'services.main-clients.title'
     ul.list-container
@@ -20,3 +21,25 @@
     ul.client-list
       - t('services.other-clients.list').each do |id, item|
         li = item[:title]
+
+  .main-services.content-list
+    h2 = t 'services.main-services.title'
+    ul.services       
+      li.service
+        h3 = t 'services.main-services.category.design.title'
+        ul
+          - t('services.main-services.category.design.list').each do |id, item|
+            li
+              = "#{item}"
+      li.service
+        h3 = t 'services.main-services.category.web-development.title'
+        ul
+          - t('services.main-services.category.web-development.list').each do |id, item|
+            li
+              = "#{item}"
+      li.service
+        h3 = t 'services.main-services.category.mobile-development.title'
+        ul
+          - t('services.main-services.category.mobile-development.list').each do |id, item|
+            li
+              = "#{item}"   

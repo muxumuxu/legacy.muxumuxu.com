@@ -43,17 +43,22 @@ en:
             We’ve led the conception of Trace’s new iOS and Android applications, in line with Apple and Android guidelines. The application comprises many territories, each of them with their own radio streams.<br><br>TRACE joined the team as partner, so that we could fully understand their business. From day one, we used interactive prototypes.
           conclusion: |
             We delivered these applications with a back-office for desktop and mobile, so that TRACE can autonomously manage, publish and edit territories and radios: anywhere and anytime.
-      streamquest-identity:
-        title: StreamQuest
-        type: Branding
+      slite-identity:
+        title: Slite
+        type: Identity
         case-study:
-          title: StreamQuest Identity
-          client: StreamQuest
-          delivery: Branding
+          title: Slite
+          client: eFounders / Slite
+          delivery: Identity
+          visit: <a href="https://www.slite.com/" target="_blank">slite.com →</a>
           description: |
-            StreamQuest creates interactions on live video streams, helping viewers to challenge gamers via rewarded bets and quests.
+            Slite team is convinced that note-taking is going to move from personal to professional use - as it did for chat with apps like Slack. They hope to follow in their tracks, and thet're already offering a solution tailored to create and access company content.
+          quote-research: |
+            We've helped Slite team to define the brand tone through various explorations.
+          quote-result: |
+            Whether it’s in motion or static, the logo feels playful. Always something more to share.
           quote: |
-            We designed their whole brand identity and helped them to understand how to display each element, such as their logo on videos. We helped them properly show the challenges published by viewers during live sessions.
+            The Shapes are a visual metaphor and an identity system in one. It’s an endless, living catalogue of knowledge. 
       lattice-landing:
         title: Lattice
         type: Website design
@@ -150,6 +155,18 @@ en:
             Quorum is the campaigning app for grassroots campaigns of the 21st century. This team is building a fantastic tool not only centered on data analysis but human relations as well.
           quote: |
             We renewed their brand identity and website, resulting in many more leads generated.
+      streamquest-identity:
+        title: StreamQuest
+        type: Branding
+        case-study:
+          title: StreamQuest Identity
+          client: StreamQuest
+          delivery: Branding
+          description: |
+            StreamQuest creates interactions on live video streams, helping viewers to challenge gamers via rewarded bets and quests.
+          quote: |
+            We designed their whole brand identity and helped them to understand how to display each element, such as their logo on videos. We helped them properly show the challenges published by viewers during live sessions.
+
       miraex-identity:
         title: MiraEx
         type: Branding
@@ -209,20 +226,6 @@ en:
             Clicboutic is a solution dedicated to e-commerce websites. Clicboutic Payments is one of their products, and helps online sellers receive money transfers from credit cards (among others).
           quote: |
             We helped Clicboutic showcase the values of Clicboutic Payments through illustrations, icons, and a new website. Shortly after, the amount of leads increased drastically.
-      slite-identity:
-        title: Slite
-        type: Identity
-        case-study:
-          title: Slite
-          client: eFounders / Slite
-          delivery: Identity
-          visit: <a href="https://www.slite.com/" target="_blank">slite.com →</a>
-          description: |
-            Slite team is convinced that note-taking is going to move from personal to professional use - as it did for chat with apps like Slack. They hope to follow in their tracks, and thet're already offering a solution tailored to create and access company content.
-          quote-research: |
-            TODO
-          quote-result: |
-            TODO
 
     more: Take a closer look at our work →
 
@@ -240,6 +243,36 @@ en:
         Making great products is why we get up in the morning. With an obsession for well-designed products and a relentless attention to detail, we will always put the product first.<br>
         <br>We turn sketches into a prototype as quickly as can be. Our aim is to spend less time fiddling with plans and specs, and more time producing. Our approach is experimental and collaborative. Above all, we iterate quickly for a short time to product launch.
       more: Get in touch →
+    main-services:
+      title: |
+        Consulting services and tools we use to design and develop businesses.
+      category:
+        web-development:
+          title:
+            Web Development
+          list:
+            ruby-on-rails: Ruby On Rails
+            vuejs-nuxtjs: VueJS / NuxtJS
+            contentful: Contentful
+            atomic-css: Atomic CSS
+            security: Security
+            methodology: Methodology
+        mobile-development:
+          title:
+            Mobile Development
+          list:
+            ios: iOS
+            android: Android
+        design:
+          title:
+            Design
+          list:
+            product-design: Product Design
+            brand-design: Brand Design
+            motion-design: Motion Design
+            design-sprints: Design Sprints
+            research: Research
+            user-interface-design: User Interface Design
     main-clients:
       title: |
         We have long-term collaborations with bold teams we believe in.
