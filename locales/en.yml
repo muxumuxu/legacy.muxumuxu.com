@@ -209,6 +209,21 @@ en:
             Clicboutic is a solution dedicated to e-commerce websites. Clicboutic Payments is one of their products, and helps online sellers receive money transfers from credit cards (among others).
           quote: |
             We helped Clicboutic showcase the values of Clicboutic Payments through illustrations, icons, and a new website. Shortly after, the amount of leads increased drastically.
+      slite-identity:
+        title: Slite
+        type: Identity
+        case-study:
+          title: Slite
+          client: eFounders / Slite
+          delivery: Identity
+          visit: <a href="https://www.slite.com/" target="_blank">slite.com →</a>
+          description: |
+            Slite team is convinced that note-taking is going to move from personal to professional use - as it did for chat with apps like Slack. They hope to follow in their tracks, and thet're already offering a solution tailored to create and access company content.
+          quote-research: |
+            TODO
+          quote-result: |
+            TODO
+
     more: Take a closer look at our work →
 
   work:
