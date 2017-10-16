@@ -58,7 +58,7 @@ en:
           quote-result: |
             Whether it’s in motion or static, the logo feels playful. Always something more to share.
           quote: |
-            The Shapes are a visual metaphor and an identity system in one. It’s an endless, living catalogue of knowledge. 
+            The Shapes are a visual metaphor and an identity system in one. It’s an endless, living catalogue of knowledge.
       lattice-landing:
         title: Lattice
         type: Website design
@@ -511,6 +511,11 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      money-talk-take-2:
+        title: |
+          Money talk, take 2
+        source: Medium
+        link: https://medium.com/muxu-muxu/money-talk-take-2-127aad978bc7
       audrey-women-tech:
         title: |
           Passion, coding and women in tech
