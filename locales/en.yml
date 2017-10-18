@@ -480,12 +480,12 @@ en:
         valentin:
           name: Valentin
           title: Designer
-        lauren:
-          name: Lauren
-          title: Developer
         elsa:
           name: Elsa
           title: Communications
+        biggie:
+          name: Biggie
+          title: Head of Pets
 
     friends:
       title: Our beloved friends
@@ -493,6 +493,9 @@ en:
         pierre:
           name: Pierre
           title: Product Advisor
+        lauren:
+          name: Lauren
+          title: Developer
         jimmy:
           name: Jimmy
           title: Developer
