@@ -474,25 +474,31 @@ en:
         damien:
           name: Damien
           title: Designer
+        floriane:
+          name: Floriane
+          title: Office & Happiness
+        valentin:
+          name: Valentin
+          title: Designer
         lauren:
           name: Lauren
           title: Developer
+        elsa:
+          name: Elsa
+          title: Communications
+
+    friends:
+      title: Our beloved friends
+      items:
+        pierre:
+          name: Pierre
+          title: Product Advisor
         jimmy:
           name: Jimmy
           title: Developer
         ben:
           name: Ben
           title: Motion Designer
-        elsa:
-          name: Elsa
-          title: Communications
-        pierre:
-          name: Pierre
-          title: Product Advisor
-
-    friends:
-      title: Our beloved friends
-      items:
         victor:
           name: Victor
           title: Developer
