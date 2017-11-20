@@ -351,14 +351,14 @@ en:
     portfolio:
       title: Portfolio
       projects:
-        foodancy:
-          title: Cocotte
-          type: Health
-          link: https://cocotte-app.com/
         papier:
           title: Papier
           type: Productivity
           link: https://getpapier.com/
+        cocotte:
+          title: Cocotte
+          type: Health
+          link: https://cocotte-app.com/
         koala:
           title: Koala
           type: Health
@@ -367,6 +367,10 @@ en:
           title: Hedwig
           type: Productivity
           link: https://hedwig-app.com
+        cactomain:
+          title: Cactomain
+          type: Utilities
+          link: https://cactomain.co
     partnerships:
       title: What we do in a partnership
       description: |
