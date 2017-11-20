@@ -1,0 +1,42 @@
+.wrapper.case-study
+  .hero-case-study
+    h1 = t 'projects.list.sqreen-identity.case-study.title'
+    ul.resume
+      li
+        h2 = t 'projects.client'
+        p = t 'projects.list.sqreen-identity.case-study.client'
+      li
+        h2 = t 'projects.delivery'    
+        p = t 'projects.list.sqreen-identity.case-study.delivery'
+      li
+        h2 = t 'projects.visit'
+        p = t 'projects.list.sqreen-identity.case-study.visit'
+
+  p = t 'projects.list.sqreen-identity.case-study.description'
+
+.slider.sodif-identity  
+  div data-fluffy-container=""
+    div data-fluffy-content="" 
+      = image_tag "work/sqreen-identity-preview.jpg"
+
+.wrapper.case-study
+
+  p = t 'projects.list.sqreen-identity.case-study.quote'
+  
+  = image_tag "work/sqreen-identity.gif"
+  
+  = image_tag "work/sqreen-identity-illustration-1.jpg"
+
+  = image_tag "work/sqreen-identity-illustration-2.jpg"
+
+.wrapper.work
+  .projects.related
+    h2.related = t 'work.related'
+    = link_to "../lattice-resources-for-humans", class: "project"
+      = image_tag "work/lattice-resources-for-humans.jpg"
+      h2 = t 'projects.list.lattice-resources-for-humans.title'
+      p = t 'projects.list.lattice-resources-for-humans.type'
+    = link_to "../miraex-identity", class: "project"
+      = image_tag "work/miraex-identity.jpg"
+      h2 = t 'projects.list.miraex-identity.title'
+      p = t 'projects.list.miraex-identity.type'

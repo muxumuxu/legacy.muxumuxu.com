@@ -143,6 +143,18 @@ en:
             Wholesaler established across east of France since 1968, SODIF has exclusive partnerships with suppliers such as Rosa Prima from Ecuador, producing some of the most beautiful roses in the world.
           quote: |
             We completely reworked their branding, identity and website, while preserving their historical values.
+      sqreen-identity:
+        title: Sqreen
+        type: Branding
+        case-study:
+          title: Sqreen.io
+          client: Sqreen
+          delivery: Branding
+          visit: <a href="https://www.sqreen.io/" target="_blank">sqreen.io →</a>
+          description: |
+            With its unique in-app technology, Sqreen revolutionizes the way engineering teams protect apps from intrusions & data loss.
+          quote: |
+            We completely reworked their branding.
       quorum-landing:
         title: Quorum
         type: Website design & development
@@ -166,7 +178,6 @@ en:
             StreamQuest creates interactions on live video streams, helping viewers to challenge gamers via rewarded bets and quests.
           quote: |
             We designed their whole brand identity and helped them to understand how to display each element, such as their logo on videos. We helped them properly show the challenges published by viewers during live sessions.
-
       miraex-identity:
         title: MiraEx
         type: Branding
