@@ -155,6 +155,18 @@ en:
             With its unique in-app technology, Sqreen revolutionizes the way engineering teams protect apps from intrusions & data loss.
           quote: |
             We completely reworked their branding.
+      osangy-identity:
+        title: Osangy
+        type: Branding
+        case-study:
+          title: Osangy.com
+          client: Osangy
+          delivery: Branding
+          visit: <a href="http://osangy.com/" target="_blank">osangy.com →</a>
+          description: |
+            Easily create sales that make the most of your social networks.
+          quote: |
+            We completely reworked their branding.
       quorum-landing:
         title: Quorum
         type: Website design & development
