@@ -332,6 +332,14 @@ en:
           work: Design
           description: |
             Brand strategy and design for Slite, an early stage company part of eFounders' startup studio program.
+        sqreen:
+          work: Design
+          description: |
+            Brand strategy and design for Sqreen, revolutionizing apps protection and joining the next batch of YC.
+        argolight:
+          work: Development
+          description: |
+            Consulting mission for Argolight's developer team to ensure the reliability, accessibility and safety of their products.
     other-clients:
       title: |
         Along the way, we also worked with these great companies.
@@ -358,6 +366,8 @@ en:
           title: VPN
         wingr:
           title: Wingr
+        osangy:
+          title: Osangy
 
   ventures:
     intro: |
@@ -507,9 +517,6 @@ en:
         valentin:
           name: Valentin
           title: Designer
-        elsa:
-          name: Elsa
-          title: Communications
         biggie:
           name: Biggie
           title: Head of Pets
@@ -532,6 +539,9 @@ en:
         victor:
           name: Victor
           title: Developer
+        elsa:
+          name: Elsa
+          title: Communications
         arnaud:
           name: Arnaud
           title: Developer
