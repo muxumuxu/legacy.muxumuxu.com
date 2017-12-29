@@ -557,6 +557,13 @@ en:
     intro: |
       Muxu.Blog: Musings on the Internet, technology, experiences, development and design.
     articles:
+      thank-you-2017:
+        title: |
+          Thank you 2017, hello 2018
+        source: Medium
+        description: |
+          2017 has marked the official launch of our creative studio Muxu.Muxu and what a year it has been.
+        link: https://medium.com/@wearemuxu/thank-you-2017-hello-2018-a65d862b9c1a
       money-talk-take-2:
         title: |
           Money talk, take 2
